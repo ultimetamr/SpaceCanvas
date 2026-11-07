@@ -21,3 +21,6 @@
 *.so binary
 *.a binary
 *.wav binary
+# Unity snapshot hashes cover exact output bytes, including generated XML/Java newlines.
+CloudAndroid/app/src/** -text
+CloudAndroid/app/libs/** -text

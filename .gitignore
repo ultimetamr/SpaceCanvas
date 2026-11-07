@@ -13,6 +13,10 @@
 /.idea/
 /.vscode/
 /.gradle/
+/build/
+/CloudAndroid/app/build/
+/CloudAndroid/.gradle/
+/CloudAndroid-backup*/
 /*.csproj
 /*.sln
 /*.slnx

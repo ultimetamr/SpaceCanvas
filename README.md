@@ -8,6 +8,8 @@ SpaceCanvas 是面向 PICO Swan 的 MR 空间原型工具。用户可在透视�
 
 当前版本 **0.3.2**，Android 包名 **`com.spacecanvas.prototype`**。当前运行入口采用 **Full Space MR / OpenXR**；仓库保留早期空间窗口适配代码，不能将其理解为当前 APK 已完成 Shared Space 系统原生多窗口验收。
 
+**GitHub 云编译入口：** 仓库根目录提供 Gradle 8.11.1 / AGP 8.10.1 构建，执行 `gradle assembleRelease` 可编译 Android 启动层并打包 `CloudAndroid/` 中的 Unity 应用快照。需要 Java 17、Android SDK 36 / Build Tools 36.0.0。**此路径不会重新编译 C# 或 Unity 场景**；修改 `Assets/` 后，必须先在 Unity 构建并更新快照。操作步骤及版本号、签名说明见 [云编译指南](docs/CLOUD_BUILD.md)。
+
 ![Unity 编辑器工作台预览](docs/images/workspace.png)
 
 *以上为 Unity 编辑器预览，不是头显透视画面的截图。*
@@ -31,7 +33,7 @@ SpaceCanvas 是面向 PICO Swan 的 MR 空间原型工具。用户可在透视�
 4. 用 Unity Hub 打开仓库，等待 UPM 恢复依赖。Newtonsoft.Json 由官方 UPM 包 `com.unity.nuget.newtonsoft-json` 提供。
 5. 打开 `Assets/Scenes/SpaceCanvas_FullSpaceMR.unity`，切换到 Android。使用已有场景构建，保留场景中编辑后的模型布局。
 
-本仓库提交自有源码、Unity 场景、预制体、材质、模型/贴图、字体与授权文件、示例、工程设置、依赖清单和可再分发的嵌入包。Library、构建缓存、APK、设备私人存档、用户配置和签名密钥不入库。第三方组件各自保留原许可，详见 [第三方声明](THIRD_PARTY_NOTICES.md)。
+本仓库提交自有源码、Unity 场景、预制体、材质、模型/贴图、字体与授权文件、示例、工程设置、依赖清单、可再分发的嵌入包，以及用于 Android 云构建的已编译应用运行库。Library、构建缓存、APK、设备私人存档、用户配置和签名密钥不入库。第三方组件各自保留原许可，详见 [第三方声明](THIRD_PARTY_NOTICES.md)。
 
 ## 工程结构
 
@@ -51,7 +53,10 @@ Assets/
     ExampleProjects/                     # 三个可导入 JSON 示例
 Packages/                               # manifest、lock、可再分发嵌入依赖
 ProjectSettings/                        # Unity/Android/XR 工程配置
+CloudAndroid/                           # Android 云构建入口与编译后的 Unity 应用快照
+settings.gradle / build.gradle          # 云平台根目录 assembleRelease 入口
 Tools/Restore-PicoDependencies.ps1       # 本地 SDK 恢复与兼容修复
+Tools/Update-CloudAndroidSnapshot.ps1    # 从成功构建的 Unity 输出刷新快照
 docs/                                   # 开源接入说明和作品信息
 ```
 

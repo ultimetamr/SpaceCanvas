@@ -1,0 +1,45 @@
+import groovy.json.JsonSlurper
+import java.security.MessageDigest
+
+plugins {
+    // Compatible with the cloud builder's Gradle 8.11.1 and Java 17.
+    id 'com.android.application' version '8.10.1' apply false
+}
+
+tasks.register('verifyUnitySnapshot') {
+    group = 'verification'
+    description = 'Checks that the compiled Unity player and assets match the committed snapshot.'
+    doLast {
+        def manifestFile = file('CloudAndroid/snapshot.json')
+        if (!manifestFile.exists()) {
+            throw new GradleException('Missing Unity snapshot. Build with Unity, then run Tools/Update-CloudAndroidSnapshot.ps1. See docs/CLOUD_BUILD.md.')
+        }
+        def snapshot = new JsonSlurper().parse(manifestFile, 'UTF-8')
+        snapshot.files.each { entry ->
+            def source = file('CloudAndroid/' + entry.path)
+            if (!source.isFile()) throw new GradleException("Unity snapshot file missing: ${entry.path}")
+            def digest = MessageDigest.getInstance('SHA-256')
+            source.withInputStream { stream ->
+                byte[] buffer = new byte[1024 * 1024]
+                int count
+                while ((count = stream.read(buffer)) != -1) digest.update(buffer, 0, count)
+            }
+            def actual = digest.digest().encodeHex().toString()
+            if (actual != entry.sha256) {
+                throw new GradleException("Unity snapshot checksum mismatch: ${entry.path}. Regenerate the snapshot after changing Unity output.")
+            }
+        }
+        logger.lifecycle("Verified Unity ${snapshot.unityVersion} snapshot: ${snapshot.files.size()} files, ${snapshot.versionName} / ${snapshot.versionCode}.")
+    }
+}
+
+// The submission service invokes this exact root task.
+tasks.register('assembleRelease') {
+    group = 'build'
+    dependsOn ':app:assembleRelease'
+}
+
+tasks.register('clean', Delete) {
+    delete layout.buildDirectory
+    delete project(':app').layout.buildDirectory
+}

@@ -1,0 +1,19 @@
+{
+  "formatVersion": "1.0",
+  "projectName": "Living Room Demo",
+  "createTime": 1730000000,
+  "updateTime": 1730000000,
+  "settings": { "unitSystem": "Meter", "gridEnabled": true, "gridSize": 0.25 },
+  "objects": [
+    { "id": "floor", "assetId": "primitive.plane", "parentId": "", "localPosition": [0,0,0], "localRotation": [0,0,0,1], "localScale": [5,5,5], "colorHex": "#D6D0C4", "alpha": 1, "metallic": 0, "colliderEnabled": true },
+    { "id": "sofa", "assetId": "furniture.sofa", "parentId": "", "localPosition": [0,0.45,1.1], "localRotation": [0,0,0,1], "localScale": [1,1,1], "colorHex": "#557A95", "alpha": 1, "metallic": 0, "colliderEnabled": true },
+    { "id": "chair", "assetId": "furniture.armchair", "parentId": "", "localPosition": [-2,0.45,0.6], "localRotation": [0,0.70710677,0,0.70710677], "localScale": [1,1,1], "colorHex": "#8B5E3C", "alpha": 1, "metallic": 0, "colliderEnabled": true },
+    { "id": "table", "assetId": "furniture.table", "parentId": "", "localPosition": [0,0.35,-0.2], "localRotation": [0,0,0,1], "localScale": [1.2,1,0.8], "colorHex": "#8A5A3B", "alpha": 1, "metallic": 0.1, "colliderEnabled": true },
+    { "id": "tv", "assetId": "furniture.tv", "parentId": "", "localPosition": [0,1.25,-2.1], "localRotation": [0,0,0,1], "localScale": [1.6,1,0.2], "colorHex": "#20252B", "alpha": 1, "metallic": 0.4, "colliderEnabled": true },
+    { "id": "lamp", "assetId": "furniture.lamp", "parentId": "", "localPosition": [2.2,1,1.2], "localRotation": [0,0,0,1], "localScale": [1,1,1], "colorHex": "#E6C66A", "alpha": 1, "metallic": 0.1, "colliderEnabled": true },
+    { "id": "plant", "assetId": "decor.plant", "parentId": "", "localPosition": [-2.3,0.65,-1.4], "localRotation": [0,0,0,1], "localScale": [0.8,0.8,0.8], "colorHex": "#4D8B57", "alpha": 1, "metallic": 0, "colliderEnabled": true },
+    { "id": "rug", "assetId": "decor.rug", "parentId": "", "localPosition": [0,0.02,0.2], "localRotation": [0,0,0,1], "localScale": [2.5,1,1.5], "colorHex": "#B8664D", "alpha": 1, "metallic": 0, "colliderEnabled": false },
+    { "id": "picture", "assetId": "decor.picture", "parentId": "", "localPosition": [1.3,1.8,-2.05], "localRotation": [0,0,0,1], "localScale": [0.8,0.8,0.2], "colorHex": "#E8D8B5", "alpha": 1, "metallic": 0, "colliderEnabled": false }
+  ],
+  "groups": [ { "groupId": "living-furniture", "groupName": "Living Room Furniture", "childIds": ["sofa","chair","table","tv","lamp","plant"] } ]
+}

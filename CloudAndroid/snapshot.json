@@ -1,0 +1,2749 @@
+{
+  "schemaVersion": 1,
+  "unityVersion": "6000.6.8f1",
+  "versionName": "0.3.2",
+  "versionCode": 5,
+  "applicationId": "com.spacecanvas.prototype",
+  "architecture": "arm64-v8a",
+  "sourceCommit": "c567d48cc886973288d5eef899cc6656ccfd69cb",
+  "generatedAt": "2026-11-07T09:19:49.8071187Z",
+  "sourceApkSha256": "09b16c80ef0b00534af8b392269ecd48d3d8b30b8dbff9c3e7ba590106b6f791",
+  "scope": "Compiled Unity application snapshot. Gradle does not compile Assets/*.cs. Refresh after Unity changes.",
+  "files": [
+    {
+      "path": "app/libs/CameraRenderingPlugin.aar",
+      "sha256": "e1068343f7bc7231ffafdc6780477c43e2b2fe8604529ecb75dcbe7cad67c8d1",
+      "size": 109907
+    },
+    {
+      "path": "app/libs/capturelib-release.aar",
+      "sha256": "006c4a09963629bbe8a12232f951748d3028522b0acfb61236ef898fba2d5937",
+      "size": 130650
+    },
+    {
+      "path": "app/libs/gson-2.10.1.jar",
+      "sha256": "4241c14a7727c34feea6507ec801318a3d4a90f070e4525681079fb94ee4c593",
+      "size": 283367
+    },
+    {
+      "path": "app/libs/LoaderForUnitySDK.aar",
+      "sha256": "163ce250ba005d236e12ea199d3338bb55332aecca7d8e3df5ba1e36955c5003",
+      "size": 1033992
+    },
+    {
+      "path": "app/libs/platformloader.aar",
+      "sha256": "3d398cf4cf3c1a4718c0b0e7fcb01773ccc91f885819f4de658a27e359f41351",
+      "size": 750207
+    },
+    {
+      "path": "app/libs/PxrPlatform.aar",
+      "sha256": "ca0b30d5d6504407f035a421248cc799e966be7b2b1f22ac5141f1dccac8f428",
+      "size": 573985
+    },
+    {
+      "path": "app/libs/SpatialAdapterBackend.aar",
+      "sha256": "0d32904294f88460c050a937d00344540f072b80028b0d23bf249f277655df3f",
+      "size": 1146881
+    },
+    {
+      "path": "app/libs/tob_api-release.aar",
+      "sha256": "1333fc68c358a722e7b1f8da1aafb99b30c2eb8e3c8a62ef3ff006ebdd61c68c",
+      "size": 58057
+    },
+    {
+      "path": "app/libs/tobservicelib-release.aar",
+      "sha256": "796fce21210664985fbc24682151d10f2364648065de6801559c674125a0d13f",
+      "size": 781204
+    },
+    {
+      "path": "app/libs/unity-classes.jar",
+      "sha256": "02d66867c237c46b27d56ceaf764f8689b5e07c776583aec04583b5ab99381fb",
+      "size": 188581
+    },
+    {
+      "path": "app/src/main/AndroidManifest.xml",
+      "sha256": "5de343d265dc3535797355517f9411d44f62e34591f07194dd2b64d1a931c51e",
+      "size": 3914
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/0000000000000000f000000000000000",
+      "sha256": "73cb0e6fb36c96b215e7b33bdf2d35c0abb76c2e8cb3512fff48ae77e2d7c9ed",
+      "size": 202420
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/001ede7fb70ded440a65309093ea090e",
+      "sha256": "940a2c853dc08cdda0b007660c8b8bbcacbac4bc1741e7a0bfc4fd435e1ffd01",
+      "size": 2068
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/00203bc285eee1949bba54824bd30b35",
+      "sha256": "326633db3ff04b47e8ec61174abd3bef86a1c8a519fddd583be6fa5cc7011601",
+      "size": 6116
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/00b918d38c21608499365dcf824b50ac",
+      "sha256": "78c799458fa6fdf5f8d979979953f79cc6d85716c0a2eec2cf6dbafcdfff7237",
+      "size": 30556
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/02b48b9ce5077ab4dad3610ab31cec68",
+      "sha256": "b51866a1399dd471458f41dbd9ad197fe8ec4e0ad55baade040bc7208d652281",
+      "size": 626548
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/04529c1adc6755e4491b141fbb722560",
+      "sha256": "4a99e50d8b621bd0c7f011c96d0c17cd7c3fb488d189e8a4d2f6ab71b35bc51f",
+      "size": 256
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/04529c1adc6755e4491b141fbb722560.resource",
+      "sha256": "543ab071d5b8e94278c2652bb79fef9b1bec6a7ec0ce87b105a0ef6a96c911c0",
+      "size": 672
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/048121c92ded8784ead03dff5b78d299",
+      "sha256": "ba13ed38482b93857b80929486054f65e03092431f77f916cdb47c6efa79e86e",
+      "size": 342080
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/05101c81489cd764ebd35d33ec4e0900",
+      "sha256": "cc2a824cda5f286d0734ba955346ee997f398aa875bd7039f84ede953dde9f86",
+      "size": 7200
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/052db12bbfccf72438206c2db5f7afa5",
+      "sha256": "8511394b9f9feaea3e4a1ae1e7d65c1e10c7cf1b9ee6c0fa80faf19a0244c164",
+      "size": 342088
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/052f5e26371f76f459d134c70df3603d",
+      "sha256": "82bbfed86ee6787f0ac5f3937876fdb9360c9fb572c8acc80ceecff29adf287c",
+      "size": 308
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/062886d212dafd1468c5499c5976647b",
+      "sha256": "c03bde9a83e8c5170b3ec48d0ce73e5a65059891f71d0481c96db1452961fe38",
+      "size": 1044
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/063346ae0d043c442916db0b9ec57a0f",
+      "sha256": "903787b61baa41d231830bd0cf0f0f46a95c6c40a190009c8bee3798a392941a",
+      "size": 4288
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/06b711c160aa9124e92bee31591c57b4",
+      "sha256": "95963807ee152a9f48910f4f2f70183cc809c1598b5dbe98bd0670f6b992a0e8",
+      "size": 1920
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/07cb6b40d8cbd4a03af2a0ac038894e5",
+      "sha256": "7c1ae20c2bce1a50b1c37083d9f9586ba3c45124568661cdda9fd3e235d8f0ef",
+      "size": 64280
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/081528f6308b1134db2b9871766dd820",
+      "sha256": "167491aa8a05714ecba91d15e9698a69e378460b6190d1484277e0f994b80d77",
+      "size": 7100
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/0828b9acdcc5eae46aa140c95771740c",
+      "sha256": "1fb4ca75144b82f5bd9a0b2dace39722240fa1cbcec2145c199587938869b872",
+      "size": 2720
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/08eaedb37fcbe3f44bb2264855ee8e8a",
+      "sha256": "758249d7d328adb1a753592317d875eaf17b520872735dce6ab97251fba9296a",
+      "size": 1980
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/0a463cb26cf3ba549a3c9c0fdc82c9c8",
+      "sha256": "9616ba6f3224d7122ab30eee81b310a04e7a4cff3aba23e1a8d5f72ce76c271a",
+      "size": 626576
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/0a5c36e1edd668746a5e5f9512391ea6",
+      "sha256": "8b615d9ce081cf0be18ec64af8105c22993cc6e43863b5b151240f5c1b2a4257",
+      "size": 657960
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/0ad1b9a4fa757ca45850d4f842a74e80",
+      "sha256": "ae010604876685cc172f18d152c8cc161462f3cdb0bc3ba25b3c3962918655ee",
+      "size": 7452
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/0b059227bd2954f478ffb40ca189d39d",
+      "sha256": "17770f2faedfd74b56d27752c19f9fd0671c7ed91471c0bc5e84e2b6bac4612e",
+      "size": 4568
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/0b27774786d8a644d892d4ad18727b89",
+      "sha256": "c850d8ce1fd53e91e71cd2d4aeea987fa53f2a4e95fb16a4f1b6981b4a54e744",
+      "size": 1888
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/0e0db5307210d97408562430bda7624c",
+      "sha256": "1ed96456c94932832928750b80998d1f38d71b5bdc655ed24855cea30f66a7a5",
+      "size": 200
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/0e8851bbd4d7b2b4787a54d6d1f11f80",
+      "sha256": "3bf45875ef3211d4ad26acb2e6cef5a9058f8d050930afed7b40b69becff79b1",
+      "size": 932
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/0f37039b4a5cd3f48bff00c92911c80c",
+      "sha256": "99154616d11b4d63cfa1321cf881603f904181dd1003d12006f0c875a7652a6c",
+      "size": 40376
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/1042fc616e5902b49bbcd96f3679392d",
+      "sha256": "7cf820d3120e0f17ff8baa6534c133154282076f5df16a059967193883739965",
+      "size": 626572
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/1283dec6b9bc214469232973e9095682",
+      "sha256": "6c750847ec3b33eea7c34d734734c6a751cf000d9e770372efd335ca699345b8",
+      "size": 2888
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/128abf3126529bb428b679b56ce22561",
+      "sha256": "642f2d7c5901b92225e5fbc03f6ccb08a108e76653fbe537425697a5d305efe2",
+      "size": 688
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/12a19b71643cd314291e0f6c3e9a2ac9",
+      "sha256": "f6eb964e9c814f558ed55254e5b5fb43237cc1b0249b0b2a02d82b333c3284b7",
+      "size": 30556
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/14ea9afe294f4144dab903e23f5ecc6f",
+      "sha256": "caccf2a36a9c4eeaff3ed58e11e85239d554a6d9ec4dba84f144c188462c1d28",
+      "size": 342084
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/14fec5655da022b49a45181f8517dfa3",
+      "sha256": "fd6c768a232c38eb5073d4b7e32643c7270a2e213582ed1458aed43a36227fd3",
+      "size": 532
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/15525cf33513f2d468ecf88381974b79",
+      "sha256": "7a3a7b881ae18ad8f2382d695b73510e9174ab3f059e0b0063257b2a4cb55900",
+      "size": 1920
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/1622cb2c88d4c064dbe97b28cbdb5a1e",
+      "sha256": "5911ebe42b72ee4ecc1702c7782940be93f44ac93e2ecc3decd175ef3ecab300",
+      "size": 908
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/166b3d4f510e047ab9e97a27b546eca5",
+      "sha256": "29e42c4259231e7655e5ca16e34ec15a717cc2cb390c77a77aa1cd6014a32734",
+      "size": 2764
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/173621e98c19c493a8f0288d8a933bed",
+      "sha256": "be3cff358fc8dc3af92b6a917d00dd260d34ea0a906c11f6e712fd92f1a856bc",
+      "size": 2684
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/17475386f0f6eea48b606d8c0db66fee",
+      "sha256": "a1f7fe3b83df8ebe0b3140f4ed0279dfd1ba6cf7627ccc7d7bd492b1163174b2",
+      "size": 376
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/179b55003179e06419be7dc32d85be23",
+      "sha256": "978e51a828ca507ff9bb23a0132d195e957f45c0ffc37cba3b16436ace591f7f",
+      "size": 1472
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/17ccb5054fca0994ab2a22d40c2fbe7d",
+      "sha256": "ec6c5ceaaf2b25723b53af41234a92c28b25657c5be86332d15d8e7d49a7a7a7",
+      "size": 2068
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/180b16b98f2a62c4987119c7845b4f9b",
+      "sha256": "d687f31fcf7e45640ceb681b0e675acd40ff7c5be5843b0dfbb2c35e5975e096",
+      "size": 342080
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/19109cae5d3dd4a21ab383ac58d3eb7d",
+      "sha256": "e86db838499a67a8366f07d213c3210b7eb7a141c70e080529270da536090aef",
+      "size": 2768
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/19363699162b3b842a8355f3f58473a7",
+      "sha256": "89553772a7033da7e3e6f8521a6aa57b2bc6b5d4de702d4aa0fc11c648214a2e",
+      "size": 4768
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/19782c584268a2143837840f0b0bf11b",
+      "sha256": "c5abf7cc9b9c3e8ac1bc376d28d68f9bfe323acdce02f10386c0de4e232d8f11",
+      "size": 342080
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/1a1333616d23d473a9564f02435a3d0b",
+      "sha256": "3e36eef9e226c7f15ce19f6cd5f0bbb53c550ebb748efeff8cfa4696b6391f1a",
+      "size": 2684
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/1a346875fe4b22745a3883e5d665988c",
+      "sha256": "ce536647b3b6cd26430842bec873011cc451aa8fe662193165559fadab512a03",
+      "size": 2804
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/1a83bdbbf87e1334c947405c3c4ed019",
+      "sha256": "2ecaffd813a6b769f102dc75b49a5e73b09e930f473bc916706edb8134a25546",
+      "size": 1184
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/1aa30863e5f5c1b4ebd47fb0fbbe7d06",
+      "sha256": "7d098125c64495c8e1b74a4a9f0fae4f0d0ea4923ec6143ce082340052e00b42",
+      "size": 1920
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/1c2082a1460d30b468346be5927786b7",
+      "sha256": "2c836015862fd285573ba0788371f4496123d24a051348beda269a898d2677ba",
+      "size": 404
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/1e0c3b7a84ffc85488b34869c5e20318",
+      "sha256": "c38a96f3e1bdb67140dac14722d7bafc50184d13bed444f906d8e4fee42dd8f5",
+      "size": 1096
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/1ee5ba7cc57c8074b81f3fba4c0c3dba",
+      "sha256": "725f4364e7c0d58c4237cda2e5db4f2d1195bf443628f0c74a81b48f7189446a",
+      "size": 7092
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/1fc5f47805e00457ca97da2351c04180",
+      "sha256": "a25a23da8f28f74b0e9f18bb3855ce0d210be29ffcda643e12b082d1c8222322",
+      "size": 9680
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/20f88c5c29f4847e8a000f43362fcbfd",
+      "sha256": "e58b178677829d9f00a4da8220699aa3bdb795cedceec435c4440d8de4c93b87",
+      "size": 2660
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/2155a234a50c0ed4eb9632c21227597d",
+      "sha256": "4efe5a8d91820c2a00bfd127523a661506e1e0fda8fa4b7c5baa0bf2522b301c",
+      "size": 1920
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/2214f4e63cc456a42971de68df6d4295",
+      "sha256": "03b87d8adf98e01e35e36566a20402e5c31aa5d3c973d5b9b9e4dcdb256aaaf7",
+      "size": 672
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/22202a0b7b3a22e42b35ffa268644a5d",
+      "sha256": "d7dae80f4ffcc36ca46693e40f6e3802302475c08c506d3a57a08c86f2503ee9",
+      "size": 208
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/22c9a673f0b8e4147b5b94e029268780",
+      "sha256": "1ca5c67744ea1b069564fb04a979194b23b6ebf2e3581197a0d459ba0730b974",
+      "size": 1044
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/23a722b02fb8ddf4ead06ae447f14a3a",
+      "sha256": "27dd19dfc7a52a09bf52026ce7e450071c32cbf51878286545bd36f6ac5288da",
+      "size": 2212
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/23d1b91870ac6f1439ea24a32bb78448",
+      "sha256": "46bed9577151980e618b629af0d951d2908d53f7079cb06e79d14727ef6e448e",
+      "size": 342088
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/240c08727a0035f4aa36ec8c656981ed",
+      "sha256": "44ef614317aed9a8503748ef65e9c2deadd7c218b6e8816a5a09fda6496b8158",
+      "size": 33392
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/2478cd5bf9724b0438405d8b8a7f8d9b",
+      "sha256": "a6d8f2be0889096bda494a125c61c2bca948435281b6ac3a1cd62be290cf7c50",
+      "size": 1704
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/2559f218fd6f29f4baad3fa1dc842230",
+      "sha256": "d8a023a96b66837fdfed600df0c680a95c37563c173ce57884a0889d29e8ded8",
+      "size": 1972
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/262c747a1aabe464bab63ec0ac92d3c3",
+      "sha256": "6425e0b18e9b2ad2c3bddbdf7b87c3bd4e9e951b7acad1f36ffcc79a9b0ea879",
+      "size": 3492
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/273ffb934f098494493fa0a0161681e9",
+      "sha256": "3b5aa80d67053c2f0a9249b231da368f2b4ef071ba42772f8435d1291f84dfcb",
+      "size": 2464
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/28bd8a64e0382be40b0b78ee5001e2bd",
+      "sha256": "cc66b18ba53379bfbac7004f5dcfffb4fa38ae1aa79cf7bcfcb636d69c8d26d1",
+      "size": 2068
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/296b2106775d132469d4ddadfa937fc4",
+      "sha256": "0f7a10b9d259075e192d80fa796135c33ee131088047be9139abc70f3aa59d8a",
+      "size": 11856
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/2a2f79796b4a2b94db8f84fdef119c52",
+      "sha256": "d5a18114e7c82c76896106e760f1afa72defb4c99f663434a536cdcdd9baef19",
+      "size": 1920
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/2a7d5b9c3168ed34f8f8151718a3a505",
+      "sha256": "9b071c476734fc46514b02322716181cf8746dbca7cf95f7e2ddb96f674f365a",
+      "size": 5348
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/2b4c5279420f9f4438efa0924af84ce2",
+      "sha256": "188a82d6530766484b3dca2a6a357f6a2c140ab5e25eb2facad1f2f7cb414557",
+      "size": 2068
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/2c1987f8634101149a98e55142b16ccf",
+      "sha256": "9a05a1a20006b002b2b8698827ce2d016d2526d7df42b893a17f2518984001a2",
+      "size": 1920
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/2c6815f105104a74fb6768accf5ae590",
+      "sha256": "7012a7f90bb5fa8845dec27358a1abe1d8dadfd13bc9434e11afe8762de9b4c3",
+      "size": 672
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/2e498d1c8094910479dc3e1b768306a4",
+      "sha256": "98af405c06a4a8988acef975d9c2c2e9ef6465d0923974515b977cd9678dc2fb",
+      "size": 3748
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/2e59d7ddbc9b0634ba3d8d98b589c7f2",
+      "sha256": "d8fdf01d9ea10ec1e5a6dbefcb6f76c1d5ae8ae9b5ecaca487424d3abd893574",
+      "size": 3364
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/2e63e7e72c1ed324789395c19e016bd1",
+      "sha256": "b02fde360e6b66c3c29bf3f5283ddb5b411706eefdf47520ac4a692f7ff592d8",
+      "size": 2156
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/2e9b5734c8174814aaf835e120663b24",
+      "sha256": "209a7cf52a305ef9d508077dae601771a34245e33f26c03bbcb33df6d5f1982a",
+      "size": 216
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/2f6758bd4ad8fd34180ad73f9dfaee0c",
+      "sha256": "b90a1861e6057fb0cc26827872152aebeaf161d70d79cf8377a3e40858072f1d",
+      "size": 396
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/2f872c920e7224f889cde9b63d7311cc",
+      "sha256": "bfdb43412809f5de1df5ffc28d90818a587363b21278882e4a5585c1b6ba6d07",
+      "size": 2772
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/2fc108a4d4e9d5d41bf34f493b563d76",
+      "sha256": "7658f19575aa4fd8374508beb20d0d3594dcbd2b6e2234e4323627445d3c50f0",
+      "size": 40372
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/2feddea28647636409e9100780016736",
+      "sha256": "5770058aa127d13b2849bd0ca15affbc2ebab90e723927bdb847b597d80c09e2",
+      "size": 30556
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/2ff7a1ad33444af409a57241078abd84",
+      "sha256": "bb6bad436d3f7fa39b22e131badb3d69c59d73719121db19c559008ccf07f4b1",
+      "size": 158704
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/31321ba15b8f8eb4c954353edc038b1d",
+      "sha256": "380a98a2ce5e23f568daed9518b53c68b00d7fb9483c5534ec4b06c928a2bec7",
+      "size": 2064
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/3138222ece47c3e45a679c32f02f2d7d",
+      "sha256": "83b86269923b4f3e50114ea47ce8d9a3a39b04d64272dd40459eceb76df815c5",
+      "size": 200
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/31804048e91283b49b2efc8918645282",
+      "sha256": "2d911cc83728f886ec669814c06606c6043fef360ed8ce837031df9d74f9a7d2",
+      "size": 5292
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/31c8673838287f1409e1d02b63ca791a",
+      "sha256": "6c09fb0be290ba740cb7c036720c8ff13d38fc6e0e5458e2006f0d61a98b8c48",
+      "size": 1964
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/338bd28524edc32419e591af523fde98",
+      "sha256": "25059af650a341a1f51d64831fadb77b238166c8548f6a61a62a642e27ca3b4f",
+      "size": 1920
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/33ce0c27f4dfbf04da9d549e94760211",
+      "sha256": "1a585d4fa3a23d9e4f423ddc77cb292cb1527c38f7c4f086b6de39d3b4ca214a",
+      "size": 4912
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/33ef0faffc75100469618181869ab2c4",
+      "sha256": "bdcfaad28518648642931f3f6a8b3b28d3cf4e5f1f4079d19af706bc91de8e49",
+      "size": 342080
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/342eaebfe530397478ced5f51c5f1ab3",
+      "sha256": "490862cc0956e2683b9dd0402face578933116df28155adea6d46ff654f83f04",
+      "size": 1924
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/39b162b3758bf435f97c925ab0a320a3",
+      "sha256": "5c94fb89880c97dd0345a7566bad223e2b389cf93215d6437112b795280776c3",
+      "size": 426628
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/3a5f20f82a5224d7d969e99da633fc69",
+      "sha256": "778c36b647ad1c637bff44e48f0800f29c285ce0af612b5a97a1b02a50120a77",
+      "size": 4064
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/3b60685228215874a8c2c7feb9162c5c",
+      "sha256": "5d0f2c1cd0a57900d69363801f6f799762f7dcd206b41d5612609e219537109b",
+      "size": 1044
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/3b78eeaee0b7b489588c33e00ad1ff27",
+      "sha256": "821dcb041f23aa94dd4ccd753522588d1f4392d17a4eec4d72885069105f83bc",
+      "size": 1704
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/3c0b7dfa6ab5d174c9c6f43a63c0152c",
+      "sha256": "23c7cb4a9beb59f5dbf54d14e6cf0c220801acc7c18ea7c0ba07498e0b21b499",
+      "size": 1920
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/3d6b84d1149bad144863fee6122979a2",
+      "sha256": "6e228fa67fbcbabb14bd2459c15085e4b757f00cf20f05d270ab5c35b80c475c",
+      "size": 692
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/3d78795e4cbf4b94da9594dc53eb34e5",
+      "sha256": "82cd206998d12a047c52842c8a983ad82f58d8bd522820eeb0163c2da672940d",
+      "size": 1044
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/3d8e6f66b1964e247babc4668d0e2a7f",
+      "sha256": "0ef4a2d7c97d0b16a417de8fdbfe701db917b292f9ddb1563d3b40973220224d",
+      "size": 284
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/3e6da93ce58c14438a129fc637235b7d",
+      "sha256": "f592671fe2b0851561b44b504c5319b8c582378bb8dd235ee0dbef9e1e3d4f0b",
+      "size": 564
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/3f0f12161122646a8bbc81d469b0eaeb",
+      "sha256": "5fc85584d8365194c874b3adcdda06518159e83052687577db6cd1a512bb536e",
+      "size": 292
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/3f5b5dff67a942289a9defa416b206f3",
+      "sha256": "490e12c5cdcbe7d79ba17786073336a2dad656799513122fba6581c781b3237d",
+      "size": 780
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/3f7b85721d47e8946882c6d6b46b4c3c",
+      "sha256": "d6034dc0aa5f1f0f1767e40d483d58d01024208101acbfba591f327f5e70745c",
+      "size": 1044
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/400be15763095a94ca67d3f44402560a",
+      "sha256": "0d365538e225f73074e97365774d2a56a14cf38984776c6a8b811389ff515957",
+      "size": 212
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/405800810ee4b4747acb277e56c89952",
+      "sha256": "86365471c6405fcf671472c7a5469b495ed1287830b53f251aef39cc6978cb9c",
+      "size": 1056
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/414d5e991b6608a4ba1b525f146d227e",
+      "sha256": "e44dfff477841e1f472686bff0b23d364926348eb9e5ea3689cb78b7c5d81e44",
+      "size": 1636
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/415222320f474634e97aa61fee69e59f",
+      "sha256": "46c4d3755a0cad954aed6e44654c8bdc02e14d4c465a1ea944bf29ddf440b928",
+      "size": 2472
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/41938f04a6f4d884f82644a294f64a74",
+      "sha256": "4063f887329a6237042c87618e0cf721038571d7f2d3559ed5b7e6ef6b72b40c",
+      "size": 30528
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/41b081f015071e34aa151f3edf474f0e",
+      "sha256": "d42f6e5af21dddb7f845b8aeb009d904ca2174cd097a1d4d7903b4445dd7a7e3",
+      "size": 1608
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/420152448d7407d41a1086704d430427",
+      "sha256": "14c472866cd7dead527fc85f7c176f654e02dd227d2ff5c618742c5fa8142943",
+      "size": 5440
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/44423fbc73cf1334c8ab8ec0d0d79aa0",
+      "sha256": "8d5cfba22d0e995e668a1bdc26ee9a1a56c033e994948fcdd9dcb09e13b51d2e",
+      "size": 1272
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/45ba65e688a074400b9380971795c4db",
+      "sha256": "9e416d9e21a28471ef41f8ca72e28a824cd97ca8bfb8516942ae7443943bead6",
+      "size": 448
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/45c160cca437e8f4b80736d356e92034",
+      "sha256": "868ffce3147c7937a9e5ba40b091be29da6a33498b95e0313ff7c273ca9e0dd9",
+      "size": 812
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/45e18090347a4ac47ade421da9259751",
+      "sha256": "2abb70f05fcd5e6bbe5ed307336a6a6b96cb3d02de6c45124cc1afdbec27b0b3",
+      "size": 1920
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/4632f3d33fc5ea94e8a7673306cbb3e2",
+      "sha256": "d287f3a163bf295b48c274ed24e199536ec0c13c0d953be99cf16a5c8cc3ff18",
+      "size": 3440
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/46904c27dea7c6548ae92aaee473dc25",
+      "sha256": "b52ebfdb6770f5fa6e59d3a47e45683018ecefee525ff9d824c61b70b7100c3a",
+      "size": 626580
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/46eff69f4f8c8e64ca295ba7356521f1",
+      "sha256": "a3c77fba5d38dfc6566e0b06a838a46a657f954ead053b7adfd0b41ce0109313",
+      "size": 158692
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/47161091fe423d44d89c50d2aab06117",
+      "sha256": "b0d6d279d502bd0a7aebd65bcc88904c3d08d4d59ac231c6433b44d3cb650a43",
+      "size": 1272
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/4761bfc7de5950049b09d42773534fbf",
+      "sha256": "26c6f9ff25bbf9d83f3c671dbe9f30fd7fb2c937edf9074b481467c16ade636f",
+      "size": 5756
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/47748cba5d83bec4e909e0ad8cd077e8",
+      "sha256": "453b0ffc846e3a16a3a235fb82e27f8d762227420c574c88e0a36dd9fea67ff4",
+      "size": 342084
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/477857ae78587411bbeb85778bad017f",
+      "sha256": "9e7a3eaeaef4b3ef43dbadb23cf94ed5459b83d3091ad7088de3c1c248927f0e",
+      "size": 1428
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/4797b8f98acca044797a9d96096ed42f",
+      "sha256": "bafd23967eca04c79396e3400fe6fbb32962eaec7238b2f400017c640c20f1db",
+      "size": 2076
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/49b687a364526fa49bc0f96c394783db",
+      "sha256": "4d1a6993ee289994229a67c717404f981b4e2f38abaaa95e768cca9b10a593b5",
+      "size": 1372
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/49e2f0be4d30e2245a7878424ee3e9aa",
+      "sha256": "ab828e069c9743cf80fd8bf841a9e46dbf5f3f487844b198e446d72d95c08360",
+      "size": 1044
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/49e5161f5d80b6241b534ee0bdfb00b7",
+      "sha256": "644d1dbbff69d33f474288750c442c23df5935c70d29cfd95eb698dd752d805d",
+      "size": 1044
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/4a1294d789b914d428541b480a16682c",
+      "sha256": "d3b37809ab61a8890ba5c38f463b2b4dedf75ab17801e576ccfc7644125d6e95",
+      "size": 2684
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/4a887bf25b2d04a1bae1669ae6747419",
+      "sha256": "904c4ea1d959986a291defa9d33e93f5d1162b955bf59ee5292ac7b10bc608de",
+      "size": 2680
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/4a978209511a58c45a9902359d9ef9e4",
+      "sha256": "174ede93f0d8f024b61497efc7c5e271ae4a1927e093cea337a343933ae3a2b6",
+      "size": 1296
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/4bfadd3e60167a44fa27c370bfe2ae26",
+      "sha256": "374a0d7f0558771c5a50bc1adb51312e1de7568e34f0f3788a91dc8eed3f5227",
+      "size": 872
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/4c58a28a510ad4a488fde1059ac74cb2",
+      "sha256": "aae24e049e12c80290bf7b910996a5fbebeb56f69d1349666ed13b2306eb24bb",
+      "size": 332
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/4e85f53470581cf47a1feb7558495287",
+      "sha256": "03236abadf3bc940a6e629017e23e1b9185b57d52c50b1ba427cf1d089565cb2",
+      "size": 146848
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/4ef37ef333c3dc149b842dd2a3534ca1",
+      "sha256": "573af6c7569a3a1e4ab38dce8361cfef9d368bf6bfb02058021f757de3d7215f",
+      "size": 7676
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/4f3c1260c5bd8c64985946fc6af20f00",
+      "sha256": "ad6cd41ef4641a05ccaf51672bb28c5aced1325e1b06abade2f7b162ec94345e",
+      "size": 40376
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/4ff92632f801a7444958bb72ef6aee53",
+      "sha256": "5e4e1bcc6d8959dec9b53ebb016e0489e56c3983a9bae1472924b94e85e37df6",
+      "size": 4056
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/514f306eb672c1c42bd810c7683a564a",
+      "sha256": "1beff6a0f3582161bbe9b458708b3f0f7fb8bd54000692c3ea6c92d0e9b2497a",
+      "size": 2068
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/51c1e686a4df1eb44b2e2e269287a3a4",
+      "sha256": "df463fe78e05c18907dfb80d8d5852f9babff6cb25e7aa5d581b801f67771655",
+      "size": 626576
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/521fbaf5c95414e9e8208ab3ea4ad868",
+      "sha256": "91f35100a71e6ede58cebab2f54e6da6041f31f73585479bf58763ae83cbbd45",
+      "size": 7640
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/52659ef7a46309848a9dcadcaac911fe",
+      "sha256": "c9efcf674360cad9039505c6634c233eb16496de4eeeea4a94d27f6bb900262b",
+      "size": 1044
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/53582a89a812faa45b1bebb22fb3eeed",
+      "sha256": "8628b575c14189568928119d6171151075b13b5b6746c1b7e09d1cbfffde0f18",
+      "size": 4384
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/5496c96b97fb7ee469f4ca36671c32d0",
+      "sha256": "00ac4f855e78a7b38833f656f61cccf27e7ce405fd67c6015ea63d0205a84a5c",
+      "size": 40376
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/55904c9b22a7beb48b12b721c6b4bbd0",
+      "sha256": "2e1bbc84957d09279219c6ddfb478ecdd33ff769e4d15000191440654366eb80",
+      "size": 1916
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/559b0277d5f635545a7b034007f4f42c",
+      "sha256": "d49a2efad040a5670f8b7e17021f5145818d08654a605da7bd53c08208281a4c",
+      "size": 30528
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/560f2515c4d7fe944b1f467499ce4371",
+      "sha256": "8f072a7b67a50169ca36148d9e2bff50ff550da08d1d677f47f2a9a15e8718be",
+      "size": 626580
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/5634e707c55cdb447bdab8f9fbba03a3",
+      "sha256": "517446a79fa243dd9caff0c08da47d7e25b4ee63142735180e139cf4df8e963e",
+      "size": 626556
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/5704b4b75de9fce4281345ab2391de78",
+      "sha256": "9e63c7410a53291e24fec82ef0c1eb8c0a44220d06d3a87ca90a733096a671f5",
+      "size": 1636
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/574ae8e957555df43b4cd9257e834e36",
+      "sha256": "19a9c74058022928fd45fa68655bcb53632106e211b3586819ebee4e347e3166",
+      "size": 7108
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/57a3dc08611701544aed26d1a541f642",
+      "sha256": "e8eb15b21079f433c9683b4e8e91908a0c169eb8a55c7bf1b76324e71f8e71c7",
+      "size": 8132
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/57b124e2a7e815d47bfd4ae94a3d755b",
+      "sha256": "04bf6af3a2f1a96404c9a26cb10ee120a79e086cefd92a5390a7116cbade3570",
+      "size": 2068
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/584ae3164cf45584aa681b38a0f5d9f1",
+      "sha256": "83e7a5494097cc86df981d9dab1c4bcad3265d3968d032504158734eec25d032",
+      "size": 626572
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/58ddfb7ab9dd4dd4aa3966087d04447d",
+      "sha256": "649bb4da4b9fbcc5ad3d821a7cf17e3e8199c1227c08f594b07fe7afe80e6d9b",
+      "size": 342084
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/5a1853146bbffc74cb5976f74d24205a",
+      "sha256": "c6c23d7b9661808dfc54ce43f1fe1f58c6a8d4f6e09964e8665e0ef3fb27a217",
+      "size": 1648
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/5b1af4ed4b31c144ab3ac444a8f66217",
+      "sha256": "f13b64b484557892ea80ac1e388493b0f25dcbedc21f002aaf0e9318b8524dd8",
+      "size": 656
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/5b670b470d1b64368901166ffb20d7ed",
+      "sha256": "5cf0ec91eee001f5fad5983b3ff089dee7302d803a51c59c3436c23052f25503",
+      "size": 564
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/5cbe7cced81af1f46a0aef054af159be",
+      "sha256": "fc104d16f0e8d27cf15c526b223a4a1a5abbfe85ddb52fe386ec00af09effd1a",
+      "size": 204
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/5d6d9999a1c27a74384ed6514f6da7f4",
+      "sha256": "6e7b4402e30695f0fdebcbff8215f8b695ac76497926a0305ec28182de0358c5",
+      "size": 5088
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/5e3cce549d1c31e42bef1ed1b32f8b85",
+      "sha256": "cf8673dd41153206c9a89367b139f94d00a0cdb2bec452a3b87c3e81904e37c8",
+      "size": 342080
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/5eeef7c6ad75c4c429afd5fc26a051bf",
+      "sha256": "1a4b5b94fc980948e25ff055d147cc17bb1a68c4caae8186ee4176a17c0ddde3",
+      "size": 3392
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/60580f3955898e04bb2f7401cd521e89",
+      "sha256": "8f3306c734aa98d1b817bf41d9675642c809bba4d59471927da014653d4144e9",
+      "size": 6940
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/60c1336dba399784497b47bdcffb4b47",
+      "sha256": "98825c72244ab56bcf6ee91ac235461d423eb592dc1e9904784826fb4a9a8dc9",
+      "size": 1398364
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/61358056a64026c4a99e10cbcd844383",
+      "sha256": "38b5eb09172418cdb6c24ec05f182b71b088a69849f4a773f10fef5121a1ccea",
+      "size": 3364
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/61736555113e6a2499f829bcf9fae1ff",
+      "sha256": "70710556bb835d0f465697c98e317f7b5770a5b3e5adae79724aeed78c60d82a",
+      "size": 208
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/618e026a94e14184ca67698c5e8fa58a",
+      "sha256": "aeb7d461de8bbfabb683769054d0f02c3ca48067b79f6be72cb4323c885babac",
+      "size": 928
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/620f232b10db8774db3670586443bfa7",
+      "sha256": "04ab97b5dde62f8a53ce1101f79c0f8b249b966b3463f119d196a9321f22406f",
+      "size": 200
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/64029f435f4d71f4999ea9c75b80c91a",
+      "sha256": "99154616d11b4d63cfa1321cf881603f904181dd1003d12006f0c875a7652a6c",
+      "size": 40376
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/650dd9526735d5b46b79224bc6e94025",
+      "sha256": "b53251387473885730533b92c0a5da1a82536bb497c7b435d4b40f8dc87b83a3",
+      "size": 26288
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/655e2c6145ca34a27a9e504b5cfafb42",
+      "sha256": "631119031fcffa427f49ebe4d70eea52c42fcf513abacd59bfbadc045992a0d4",
+      "size": 2980
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/65a6f0e3c95826649a29f0e2603e85ec",
+      "sha256": "6eea14debcf2ab250397ab7ec03fef26075b55eaa75da4ee04371f5f1b102f11",
+      "size": 2080
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/6719f7b9ed639fc4e8834469021f1c25",
+      "sha256": "8a704ee40c7ed7076c18c6eef3e99445665a68182159e82408bcb2ce7abcad3d",
+      "size": 119384
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/674f1e818695b7f4590fd6af6b114ddc",
+      "sha256": "c2fdb6924234714d33f59505e95eeb368bb887242fd17f1700912a4c3ddb3629",
+      "size": 1112
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/680d4bc1233a82543af5dc41292c06f3",
+      "sha256": "0f61b69fea9db3708483b1fbae41a8e7bc6b3fbda9a31a5549bf2fb2eff080f5",
+      "size": 280
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/6837ed7aa7a8c8d4597569922ffcbca5",
+      "sha256": "250a9edf6d6d291dfe6e8bceb5664396953cb626dd0106f8023f4c6fde71e4e3",
+      "size": 6916
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/68b7bbca1776b3a40a4d19776eddd552",
+      "sha256": "e8a6980da3b20ceb500ee1181271a6646156338f1117e723e449e7bff2f7909a",
+      "size": 1916
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/6a8f8e966738570459db901ed84ef9b6",
+      "sha256": "c275075020a227ee58579bafd72492c0cbbdd484dc1088982fcd982e30bc8132",
+      "size": 40376
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/6abc76b40b133154a91d14528cc20ba5",
+      "sha256": "6162aad16b9175958f95da2847a246f1837189e3c03fd7ebacc6fe6b2c4b99a9",
+      "size": 7056
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/6cb5c15824d604b01bea9dd0dc13e1bb",
+      "sha256": "167e66d77a57b47205a5ebac501dc7acfb8d66879d2c20631866c2c86509a4c4",
+      "size": 2656
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/6ce7c7f7cf7b6cb49a7e2810dc2d9252",
+      "sha256": "c3bdfca8c43e5f62575a798a974b87cfc643eb0cdeba81ec43e9c6ed5001f6bb",
+      "size": 1920
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/701b37d6019fd0941acaf284a98a203f",
+      "sha256": "fc327d088b41aaeccbb88b35814dde6b42cdc48915d3095d89ea454e07662a5e",
+      "size": 256
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/701b37d6019fd0941acaf284a98a203f.resource",
+      "sha256": "2eb1fc6d89d37dc6d68a3b00c3769d7fb07211b0ec5bbaf38bc997db56406c14",
+      "size": 768
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/705de375340c5b845879d8cb7b962a53",
+      "sha256": "bfc745eed8463acb5c8706ba4eebfd98af9b2eadd2468fd9cb7b533a1057de5b",
+      "size": 1108
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/730b35d2a61a0402999fef7755ab7266",
+      "sha256": "567e0b017b96595f97f83b92893a1897e766a6047c0cbf17432c46569b8bda17",
+      "size": 2768
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/73ff4f4caebaaf04382f644128a85c16",
+      "sha256": "0924d3f396e1fd67a356ab19cd6aa224481cf29bea8535b0503e432ad5b13552",
+      "size": 3956
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/7428b175bcc8fd5448c4a0e0f19287ab",
+      "sha256": "8b26a570dd0a9901284e804eb332aa0926f9ebf910512add43e764ad39e1e220",
+      "size": 10840
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/75dd26455d09bed428afe5c8d2890fb2",
+      "sha256": "af1046ef05a69d543811120ac10d6098e8d181c099f2da4532d08a161204f71c",
+      "size": 7556
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/75ea0159e191ebc4b864953fb4d504aa",
+      "sha256": "f491c817c5d6460fc6aedb5d502a58f1e82c68db46729a27e12ae274813631d6",
+      "size": 1920
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/768b1dc8c63b0c44d91c84b5cf367592",
+      "sha256": "c519ab91c0e53910d8cf3551831ac4b79f40fef2eae47de884d7215a14c10627",
+      "size": 40372
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/76d92b9c821e3b54ab76ba219e9121a0",
+      "sha256": "df93a8d75849eb9ea073db6f89c0039c6c70e5557a8586cace00a3628d02956e",
+      "size": 342080
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/77c7eb2aadfa27c40bbae105b90de610",
+      "sha256": "0d701f4ce493ca769f4035e6e5f93d2a2d209f7391f00dfe50fbd37df155d3e8",
+      "size": 30556
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/7831ac02205a82e438a7ecd4a4efe579",
+      "sha256": "a296edca567ab7f86a876b09361fa741f72ba93fccaa78b66ad6da0eaf75882c",
+      "size": 3956
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/79459efec17a4d00a321bdcc27bbc385",
+      "sha256": "1620f1ce906a3e579cbc127a563623bb611a4019dafe7c1359b5ce0972f7d0e4",
+      "size": 1848
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/7a17fd540897840e6ab53bb20488b1bf",
+      "sha256": "5007e54e6b5062fe7aa588d41db626a371f54c0d9f2e869428eac170c511434f",
+      "size": 312
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/7a424ef8cd6e9456fa0284c70460ce38",
+      "sha256": "41eb26ee534c73cf7d9200beae7ba2bbd23d9d4f6f88e471214ee5ddf70cafe1",
+      "size": 2768
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/7b53060ea2fd11e4bbff90b78c895e15",
+      "sha256": "429c2b106c13c6e1388b350af096d0cc315e0ead09cf88b2f595e8f2d62a177c",
+      "size": 1920
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/7ba9aa37fd5deaa459bbfa332aac46e6",
+      "sha256": "3efc7d319a57fdbea554672e400dfc4c64e47cc176e435667508436824ff8d92",
+      "size": 342080
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/7bf278742d7ab4f58aa7195695c41f38",
+      "sha256": "c8d5a13cba6d21568b8a57ea3f5d3c52c2b673df67ba1c65045d20756687b52d",
+      "size": 308
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/7c4d4d8c161206f46ac8f2346d809374",
+      "sha256": "e31a9cab2fad7f5394f75435fc3f9c7aa698a6144ecbdff7ffc0b3a1291e9c9c",
+      "size": 342080
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/7d60822eb114ab640b85e73d13848b1a",
+      "sha256": "2e2b609b92783db78280c28032cb1d685d4c946234a1ca0ab6ffa5acff200ffd",
+      "size": 1920
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/7dfa52c3c61f61542881145b740c7635",
+      "sha256": "adb2237d8b3a03b2f71d6f0df4176349878921eb813fc2bf246c53388de58693",
+      "size": 30528
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/7eff928b71cfd46f298284c8e67429ed",
+      "sha256": "50549cab3ed72619b99cf6171bb48237c3418ef741f8cab1ab1fd75aaabb0cfe",
+      "size": 5664
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/7f02d06d918c66447b93d9819461d94a",
+      "sha256": "4ebc60c142f37ef71bcf9db72f7809e423a40e673e26af1043802db31a56ed2e",
+      "size": 828
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/7f071d74e2aa6484c9453dd99187f6d7",
+      "sha256": "6df3324aabb1f12da5e3f94609c581990c3195c8ccf8f0ab0341a1a845f69df9",
+      "size": 1398368
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/7fe6317aaaf62264e87d9f0de0720de1",
+      "sha256": "7f766c43e3db1c4d6c27c43ddcccb3b961e7ad31f0f625685ac3217ac508b508",
+      "size": 342084
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/806bb4cb182a536498a49c69fccae1e3",
+      "sha256": "dd3a64b229b53ede6309b351c1810811ce2f26c4339d361b248fa6318ef3a787",
+      "size": 1920
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/807e7f8cdc9b1b14991c0b1a5c673466",
+      "sha256": "e6952e99d9ac134e50af8f772cd9387567802b0ad29f1aa084bf3ce590391350",
+      "size": 342084
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/8084c36da60e8d346909caecf324fb4e",
+      "sha256": "c36075aecff330afeef3a917208f053e517090242c2bb66e3b9667585f8b7952",
+      "size": 572
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/8099a762cb8233849929be6f82492a63",
+      "sha256": "4c834a3509e2324d8927f37e2f53c5888983c4643bf3a04aa6472f2305ba4f26",
+      "size": 2068
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/80cec5b3ec209324eb2396614d922ea2",
+      "sha256": "3e167435f4677c6badb2f57b847f75d52768c9ff2b2d47978c9388b0e932e1b7",
+      "size": 1044
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/80d1c03e7fd009c4482242e756d8b95b",
+      "sha256": "245d2140e6a58f962aa8a38af3d1eae0343ed011c0fa9f8928d3ce92cf2e30e9",
+      "size": 1044
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/8116638e27c68364f871521949a264e6",
+      "sha256": "0f4c06ecfe75ae277882386793f749d5879c6caa1b4c2c5b18af1046031e136b",
+      "size": 1044
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/81539a3831cfa5944b74078f776ccbe7",
+      "sha256": "381a6f92e3070881bd1e8b5de3dbf9853121910bbe4678d2b375b7de25da91f0",
+      "size": 656
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/82c26cd693e047742824965f0f61eccd",
+      "sha256": "0f28950ba65297aba623a8ebb249d0bb54068a7771e22285efa98583c945bb9f",
+      "size": 1044
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/8394ef05c8bac4603a5ade20c735aac1",
+      "sha256": "c1f810b7754d491e19c2c84d22d0b71aaf89f9dd23b1170e04e5daa867ca0758",
+      "size": 7640
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/83d5259263ef7e544b6ef74f579d0479",
+      "sha256": "c4115adee4d381d81e27017f0dca6d6279878e64e5d5a7df950c136633ef81c4",
+      "size": 7600
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/83d6795c88ea2634c85e930b17943585",
+      "sha256": "d5e62599ba01f01d94b550c6e39223488fa856226a8a07b0a8ef2482a97f9c3d",
+      "size": 204
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/85013fab55cf932458682912756a4fcb",
+      "sha256": "acebde6cdcb2f43454cb5508bb640fcd7466e00f4ae7016876f69e807cf9cb7a",
+      "size": 345512
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/850f34a4baa4b4545af156ceeb07a90d",
+      "sha256": "2893def4e77af795eca68331dc90fb7472721e85acb92f54ec6cd86b953c7fe7",
+      "size": 1264
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/853840c5196b2486a97e1785f3a68575",
+      "sha256": "9451d47ef90b9b4efb4f299caecbc7071bfe215a1c7fa72fd6bb5f93accc1712",
+      "size": 4056
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/85601fedf8a9794499989ae0ccb88a86",
+      "sha256": "7658f19575aa4fd8374508beb20d0d3594dcbd2b6e2234e4323627445d3c50f0",
+      "size": 40372
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/88bfe5792559c2a448ff56e488736d7e",
+      "sha256": "74655890a817709261c7670b309a447d881a9297657a3c0606e26eef8d3dd628",
+      "size": 56440
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/88d8ac3ceef6b33439f56e9ca1e2fccd",
+      "sha256": "6f6f3578fa06fd96c2f0e64267c326748b3de870dfd88f6998628a94d21c637d",
+      "size": 228660
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/88da4a9e078a859448a1382882b16f0a",
+      "sha256": "e7e5124178d571a5a5b12b963aa60a31b5a83ed1c314471905cbbb48a4dfa9e5",
+      "size": 736
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/89939a917a9c35648a30ca15048f9e01",
+      "sha256": "d26f8f9363e541a65996ff7da9ef9b06b7b08e31074d42a510feb383c7c16716",
+      "size": 1704
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/89969b2a6b51f5e4a90da8a71cec1861",
+      "sha256": "899416084144522c064c340485531cc42086e82f8a705d5a87e30a9b0b9441d4",
+      "size": 1732
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/8a32e873523a4f248aa73b0f2d2eb54a",
+      "sha256": "76c7f0c728cd1f0d412bf9bbd77259c007c9c404a5bc5fbf26430032f4be39b2",
+      "size": 1704
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/8adb64b7895706c49987a2afb7d40537",
+      "sha256": "a76e694747315d19da263cb2204a154bd267ffd7671d3071cc73297809eeb18b",
+      "size": 316
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/8b3745a660fe21a4db96dacec14d653e",
+      "sha256": "371f1cc511b13c047315284e04065a6385bf4d4d23023b3396649ee78d35dd30",
+      "size": 4316
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/8bc837c9cb3f760448bfd88ed47169ff",
+      "sha256": "3f8f3315f46ed21b3aace256593d8932b93928e0c88560137e4a80e5b8033fe6",
+      "size": 1732
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/8bf4a683f58b84d7fa12ffb3445e645d",
+      "sha256": "970e9284ad67abe7f5ae6b3f789e268b856b5f241b688e2f71c8c7c07ee17b69",
+      "size": 5440
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/8d99b31c7444c73479bb9169420ddad9",
+      "sha256": "0e73c4dda2c75d61efc64f8fffb883c3423bd988800dd6345baebe07115c38cd",
+      "size": 30528
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/8db3a480ef4b67843a381ec76f9e3420",
+      "sha256": "971b378065090704bd27dd2b71e647c2c2711b1b05985b6ba05bdef98db97b87",
+      "size": 342084
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/8e190456ff5c7554b89d27dfbcf8c581",
+      "sha256": "fe7af39c59de87c958a618cbe90fce749d2f34e8c72724e99e6ee7cfb226657b",
+      "size": 1920
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/8e4b411706f4ee140b0b404679b0f584",
+      "sha256": "25e22043443473492edbb2b386e469c9b585533ba402cb85da4ea4cdc5303143",
+      "size": 342084
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/8f586378b4e144a9851e7b34d9b748ee",
+      "sha256": "e716587bcf4cdff4e55040f9ccbe7a1fee446fe9250f0efc9c420862cd60b395",
+      "size": 1078876
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/8fbbb9a2169cf5b4e942b2a2cac83d11",
+      "sha256": "cf8e76f35db9f266a9f5a1c55e75dec8f3ec4ddccda30fe80fbd7edf744101eb",
+      "size": 626568
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/910d789e746dd8e4bbe4961a7e41ef1c",
+      "sha256": "c9391b8a4b0ff6bafc7e2a23bba5c6a8d8046d297acf55318933f425edbc4000",
+      "size": 444
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/9133d6ba076061f4da54636ddbf74b1c",
+      "sha256": "44591438bb88247d7db184392445d5a39bea5df1718a2725d1b6f65627488be1",
+      "size": 3956
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/91b751ebc53e829478d4818ca84266c3",
+      "sha256": "7ff31258893963bcc5027bab9b0c66ea8fbd468a606b60ac72a4e84280e1b16e",
+      "size": 756
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/9223fc3a7f4b7704ba946e59963207dc",
+      "sha256": "94dcc2bfb5b71db115346ec452f746f43f5f0744d5ad599ab6782c6d5f8a1773",
+      "size": 2212
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/92d06ebc4842e1241aa51b1240e3bcfc",
+      "sha256": "a16d009bdef1a26015a16bdca5471d2f04e057bd51c165ce8b5b0cbbac5deb5f",
+      "size": 1044
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/92d152a28ee44924181dd8486dd5c249",
+      "sha256": "f3eae0994057d7feecd53ca57df225b3f3abd4ab60ca4a658bf76a74d2f19af3",
+      "size": 342084
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/94413b6a8fe5dc445a9e1a05d7ab7bff",
+      "sha256": "beb81aa1947f5f1a710d94b7edf15bd84c21a201c90d31fe02e1bf188a6aeee9",
+      "size": 2212
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/94980865c27315b4b86367a9ca841bfe",
+      "sha256": "49e31c2eccafb27721ef8b161c101e85a2b8950a7b86ef256bc03d3880f77d2d",
+      "size": 292
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/94f7925a0585b274fbc5fe6b8f9b1f4e",
+      "sha256": "b83c064530ed0d5a76f21b5773489ce57277bac2c9fa091a8d59c61a83add49d",
+      "size": 1012
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/96071472ed1b841ddb13555bb3a2e3b3",
+      "sha256": "2a6d313be2d03ea91a72d7e07bb105322a7b49afdcd2113651a9c8c0ac1e1dcd",
+      "size": 363492
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/96eccc16097f84a4c9dfbdb3ad566ffb",
+      "sha256": "5a9a2d89c4c26436ec57e678c0477f31f44b831c10a3bbb46fb37e4768a3d57b",
+      "size": 1920
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/98595991fd68c5e419d1d37fed8658ff",
+      "sha256": "6bd7cc08cb55f06c0f2a870fde8017fa01cf0b54ebad833223c34c4a7f3e9418",
+      "size": 179544
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/9a993e003cd304ee9b10e2c8a65fbdb1",
+      "sha256": "9bad578a4f23314049001a249b430725746a07ed3c3d401cb63f9ebad3ddadf3",
+      "size": 832
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/9aaa0338e6f33874e8a888e5f75cadd3",
+      "sha256": "9a3525e542e4898fbe4332a5a2f3f95f58183bc59c368a1f0842cb8ea3206942",
+      "size": 2148
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/9af703cc8c575554780a53c073fcdc99",
+      "sha256": "0fca08ccd68c9dda8003f58269d899104727d5514d4ee2e5b52dc01c530ea533",
+      "size": 81372
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/9b325dcd5d4464a4dbe3d502388b954b",
+      "sha256": "ced364199f21038b2c8ce7d025b35e6c7bc8934fb5f38741388b1cacc448b7ff",
+      "size": 1984
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/9ca8620ece61b5e4791473ad8ef556ba",
+      "sha256": "beefbcd070fe36c220c68f363387dc370184a7cc5583cdcad830b3fc8cc1669f",
+      "size": 1044
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/9d30f0eb592b91d4da9bee161ece17c3",
+      "sha256": "2b377ba486e72feb5b6f9b0f0f5939f12fc8af9fab8ac1c7c54ca5d2f59a693e",
+      "size": 868
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/9d3720e74aa770c4ab771954af51c36b",
+      "sha256": "b99191c11145820bf158d67565aa0f000e3b2a169a67b3073581fd0163201674",
+      "size": 40372
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/9d51871396d61554b87133cdc7768e9d",
+      "sha256": "c7ea86612f2386e553d775939c37ba038d69b8757edafb808a6cff815a60626f",
+      "size": 1920
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/9e5b238a111db6a47bb9b473eda1fa92",
+      "sha256": "f3fce8ff9c78418a5c06cc4816d2f0525d067b52d0706b6a6738358847990726",
+      "size": 1920
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/9e74c6eee80c23742a9f5d46bb73be93",
+      "sha256": "abc114944c893d8d36a3f62bf3e9696d2edbf7b6cbaecac337f1f27eaf4d5187",
+      "size": 1648
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/9fa1d3526951939429ded4eb1a585615",
+      "sha256": "8ebdebc70f91c284ae98162b57d198ce829cd971a2be00f43ff1a38caa42d57b",
+      "size": 4872
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/9fa52b5f3e26471459d2d131a2f7f834",
+      "sha256": "cf1e599f7165f609080d62dc35a5855c06163ce581936cab15b2e8b0ac10ea75",
+      "size": 1920
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/a0407a158a8a60446887c44c1104aa99",
+      "sha256": "da4190058059fd48d689062a0c29cd61caa5240523d6526f6a63fad7a8c3bbce",
+      "size": 1920
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/a0967be76a24d48428a3f5bff9c73fed",
+      "sha256": "c275075020a227ee58579bafd72492c0cbbdd484dc1088982fcd982e30bc8132",
+      "size": 40376
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/a0d171ecb61251f499e61977161e37fe",
+      "sha256": "8c98a8435c52be8ec7057ab8fe3cc6d0746c13321894a2ba19e21da91db964a5",
+      "size": 158708
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/a12a0e3ab0496e54688b85ba2e1d4ea7",
+      "sha256": "8edd2401d4545ad768fc66218b79d22ce202c25f45703ab887cece61ae2d233d",
+      "size": 158708
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/a1b1c1d1e1f1401a8a01010101010101",
+      "sha256": "304c3b4126a0440b993868380dd77e65c85b48b62ef7b341eedd5a3fc32c2c5a",
+      "size": 3416
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/a1b3dee6f3915d041b67ebcd32db75de",
+      "sha256": "9de28d0e383d26beb06d69ce8d6ccbf4d019793ce89c70ecb9a70a49b89725e4",
+      "size": 2992
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/a2b2c2d2e2f2402a8a02020202020202",
+      "sha256": "54d9dae2b06bfa9e0ab8cb1c60c949104dea36eb95676e86ca00fa4c2992d3bb",
+      "size": 6092
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/a31b96041375cda45a3ad77a230c16a0",
+      "sha256": "5d38328fdfb3e16915a017bd9d1b894de0153cc398c73677d51ab0ffc5d8d5fb",
+      "size": 2064
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/a32f9a329ae533c4ca24314ddb70d563",
+      "sha256": "4b8915648eeb546441400d16aa14666eff24dc620434f213c6f4462c037f9ec9",
+      "size": 1920
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/a3b3c3d3e3f3403a8a03030303030303",
+      "sha256": "7df92c7e0e2c5237f101ecb39206cc8fb5b564149967dfa4141d8677f0d79ad5",
+      "size": 6184
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/a46f059c710f4d4448336f95461ea483",
+      "sha256": "e50090af9292125b7faf8db63addc7eb447a6b8d20b132ea91787abc10838306",
+      "size": 9888
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/a4af1060f39034d4aa001de56e934fe2",
+      "sha256": "f15badf30b7d0f768a5b51a9b8c9e1cf093bfcfce6f227591fba2c0bb7911c34",
+      "size": 81372
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/a4b4c4d4e4f4404a8a04040404040404",
+      "sha256": "55e21a53cb178a6b66ba57cd21bb5b65b1851febbd5fcd9ce3f8ca637b881b49",
+      "size": 4232
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/a5213871881102045b338a30ed91f3d8",
+      "sha256": "5e06bb0e9f71dc10034d922e4b0ca545e771a58d71e374c7a6ef197dd3d1d445",
+      "size": 692
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/a64978f04c0ee4944ae11f08479cc7dd",
+      "sha256": "3d4639bdb0b0a9d543638ee59c26a969b359607eb4dceb1d622d673f521fffbc",
+      "size": 1044
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/a64e62992bd5dd74f9e9de5cc476f4a8",
+      "sha256": "d7d31f68f39d5b065574364c135bfb830d73fa25a767e41cf4a1aae07de652ea",
+      "size": 604
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/a6cb34d0ab58a45b99e72f6e91ab2f6a",
+      "sha256": "0c4c991dfe61db64dd87c5abd34b2b57d87055e141dfd6e22d78ad316729d351",
+      "size": 2768
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/a9229f83992ae6c439fd8eb7c677e0e8",
+      "sha256": "2cd1ebd6f9abf179e42d4348e25c180e60db129630d6e840fb2335683a3c9285",
+      "size": 626568
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/aa10f8bd6f97d9543938023ece981cd5",
+      "sha256": "9a515bf93ddb728ee30e5d7ca3adce4ebc22fc0230dd54ddc670010f06a9521f",
+      "size": 1920
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/ab854e81d8fcde04eb1603f397457afc",
+      "sha256": "7a5ce926806bc361b2293986b287326fe4764dd067f1453546837ec3e777c64b",
+      "size": 4264
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/aba29443b18be4a2baf746852c2b3759",
+      "sha256": "ddd6454b937402ede1f4fb32bc197ac04e37f4f2f87c1011442937298880df69",
+      "size": 2036
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/ac1e3853863c0854f8868e6b6a754e49",
+      "sha256": "3612296e6020d7e76a93c54cb0566aaf04b8fc711bf942f42d998a2d792abbd4",
+      "size": 904
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/ac8818945755185409a09289d09dda7a",
+      "sha256": "b99191c11145820bf158d67565aa0f000e3b2a169a67b3073581fd0163201674",
+      "size": 40372
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/ac8d79dd19126344a95a23a88f4b571a",
+      "sha256": "0129cbc44b30b4960ef64d48643bf87fc317fcf30d42708da5b50bf8db7256ea",
+      "size": 1636
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/ad20dacf4b9790246baf957cfb1caf6b",
+      "sha256": "42573dc54cf0a2821fa1982da50ffafefc922bc7e3642be3a47ee9b30f37379f",
+      "size": 4560
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/ad3330d895110432fbd9b30a2838fe78",
+      "sha256": "efbc6e238a1ac8745d2a33a8873dd3c6ff400f8067eb654c7177f270488ce494",
+      "size": 1160
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/ad33ddfaa1b724b4387f07f39a898758",
+      "sha256": "9b01bc59707691e20bfaf15950b2865ebad67d87d6fdfde2354f5ca653770776",
+      "size": 145444
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/ad8827df856b77c48911d03893186baa",
+      "sha256": "97524ba795c53b1fb6e35b1568d903284671214b819c2806d85aed292e0a2682",
+      "size": 2240
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/ad88f1cd021f7e84193410be2350800d",
+      "sha256": "6349321d3e56830000610018924d77ed75a483f95f2558ec1662aca2f5c27bb4",
+      "size": 146928
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/add26d782c2f14487a27bc09c2d6f4a6",
+      "sha256": "7ccdb12b9b8b2d785d931827a01fd9bf9b0ac2adb1c3109a802018a5929a9240",
+      "size": 9552
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/ade054604bac1eb4181f08a974ab866f",
+      "sha256": "651c50def6ab75aefe717ebe08618b4ac2cc48adf129ab4694029ee29854276f",
+      "size": 6444
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/aea4d84708231e64a958384a7bb914ae",
+      "sha256": "8d339d35bb056bc1215c17a248677a0046bfa5129e06e64f05991a5a0efd4735",
+      "size": 388
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/aec8263c8b09c4b7c883688f687fc920",
+      "sha256": "d1e3b8f32efc2e874b2878a1c6789da9a723ed1957aeacfe3ac8ff23641a3467",
+      "size": 5384
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/aed934811164f40a8ae809e3faf501e6",
+      "sha256": "ea80bdea39ab9b1f05bac9e13fe13d8b19d9ea6e52abbcc5dacfe94ee44d2499",
+      "size": 1063744
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/af135a35702834f20bb1e953c31f88ab",
+      "sha256": "6cb23e2d094737f26b000013e381fc45ebec5d1239e2bb9c076c6464d832b6c3",
+      "size": 2688
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/b02e518f0cffb0b44b334e65ff253c29",
+      "sha256": "7b044259e7e29077a3a0a12017548a39490e45973bffaeb20d05cc21252e01a1",
+      "size": 135464
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/b12bcf1b2bfdc440999b5f1bc7dde1a2",
+      "sha256": "3aedcd1bc52b51c2f27784ecba8ff15c9b6e8f954b68798cb351aa1455e692c4",
+      "size": 2768
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/b15128b47c5dab2498cd281329018f00",
+      "sha256": "58115a04a6c9b6d68df1b4b1a57ab60a6e03d98876637f2d2bc151baf8f4386e",
+      "size": 11836
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/b164e7767f1088a458acb6f692c01d83",
+      "sha256": "9c797fcd9844ed07cd3fb521d605883b3d3b4af6032be5ced29da3fd04a3c9b2",
+      "size": 344056
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/b1b7065e3df7496b9dbb32ffc81fe33a",
+      "sha256": "c895451ce5d17acf2724422eea5be6858cd711a05469fdf9b1dece33b641683e",
+      "size": 5416
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/b2273d3b2c1e44442a9793c5611409b5",
+      "sha256": "9c566b75e82e7564f9d7642b017c7808782b80db0cbaca11ab490a797c238547",
+      "size": 342084
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/b24c00c95dde84347b01af80b9f30a93",
+      "sha256": "184ed9643d502e6645e2eb054588f534f54c4357d2b617c1692be1285544e5f5",
+      "size": 1920
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/b2fde3d168f831e4f9fa8905009a360c",
+      "sha256": "156c228ad4d5ce39a1910577a946ff357e9e37cc843c7c3942c308e9592c55bc",
+      "size": 1920
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/b357b560d85dd4660a59d2c642820a26",
+      "sha256": "617f46c129a01344da1b888cdc17925524c1ecc2975fc2e4f05d6e1d40006039",
+      "size": 2764
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/b48dd89e572b4884fb61f3aba16e7cab",
+      "sha256": "84484172c9dc497a2dd9de85c678d7f84ee79ea228fd73910360ce3bb8b444fc",
+      "size": 2068
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/b698bd5c3dff23b4daab7f0d32629c58",
+      "sha256": "a798cac1d8091368dc0c2af900c8d8d698185869cd21eac8b9c561c6af8a10c7",
+      "size": 1920
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/b6c5775f0f523ca4aa11312e4a455321",
+      "sha256": "1dd6d27360984b8601bad9e46b21b8141038bbc8a9000194a3aec843145f43c1",
+      "size": 342088
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/b6ef3f0a6ae3987428b50c6a9598f21b",
+      "sha256": "c8f5698d1a8929ea93b73d9611baf29a62af67ec235e5fddd03bfa303195fdfe",
+      "size": 342084
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/b7410e24f4a814744908f71452b28277",
+      "sha256": "f5def2d5204fe86faa6607d6fb52825d621a2b0e147ceef374aaf780cb387b65",
+      "size": 14120
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/bb5b9aa9b69947c43a6ccbd6076fcbba",
+      "sha256": "31d70dad3a6099793e1d04e27194f7d468011d3867afeda461d69de1c8af7fde",
+      "size": 1916
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/bbb43fe65b38f4083bc5e644fe958f95",
+      "sha256": "6d197d1ae154f4e4c6dfd5ff843f112d2b773ffb1b4f3b43afaa158d497c01ed",
+      "size": 2684
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/bd11982a9f2d50142874c42ed9aace3d",
+      "sha256": "5fdbdf909cf003d27c844626aaae07b903c68b6bb166c23fd4174d83e8429c06",
+      "size": 220
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/bd32fcfc86dc3214eb312aba8a34d27f",
+      "sha256": "a18bed8bdc814df2e3fcaf1f4208a53d392e31c5ce9fa817ae74bbf75a76f0d9",
+      "size": 2212
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/bd452ee420c4d4945abec2c258c1f3b0",
+      "sha256": "bb568bd45aea3869001cb2e69672a4cce87574b60ed5e9ccedfb357ff5d99db6",
+      "size": 30556
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/be3816afc0895d64db936897dae06a26",
+      "sha256": "a0bde8b93473692df406fcbcc4d712c0894dd72061731d682396553edbd7f7fd",
+      "size": 158708
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/be856c9e1a47247068ebfc44ad402df6",
+      "sha256": "7253aa7d863d2f6187b159b0c6db6fc6266abca6f914279c5a1de04539c65428",
+      "size": 450504
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/bebaff88245a5bd48a2eaadfe808733e",
+      "sha256": "0fa0934df76a00c496b23c79f7512a581bd1dbd9d3ada30a9b1999a64017a2c5",
+      "size": 1980
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/bf4e473d0088b462fbd7a0683b559bbd",
+      "sha256": "30a377fd394d00fdc5a197bf0614e670f0e56e09ec922887435bdc940ccfc32e",
+      "size": 67800
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/bf9c888d7e4e7e94eb0f00fa8a7846f0",
+      "sha256": "78a5caef1435c1b6588aaf3417f2ef606de00ec2551fe1f044ce20786107727f",
+      "size": 1036
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/boot.config",
+      "sha256": "105631bc0e8e6a46ca5a812d098851a41342c5b3e9a3853fd4da6e1761377dbd",
+      "size": 607
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/c097f47a26972414d93241c55296c220",
+      "sha256": "ad6cd41ef4641a05ccaf51672bb28c5aced1325e1b06abade2f7b162ec94345e",
+      "size": 40376
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/c1fe2e0a975913a40b21acd8d556daf6",
+      "sha256": "2f003a75f09c53c9968df6398ddb5083b72fdddff28dd8a40fd225f47155e9c6",
+      "size": 2152
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/c1ff61b0292c0af4eb8dff4148714fca",
+      "sha256": "ba013c514c5b869d5e1c5ff338c235428c1763bfd488322e2d473971bf65fc78",
+      "size": 208
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/c26f3085d9135a54a94a9b180e4e3b03",
+      "sha256": "c28f6ece1101a883f56f6c83565fe0c74fd62b9bda2fefe93166bf64fec994bb",
+      "size": 231668
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/c41005c129ba4d66911b75229fd70b45",
+      "sha256": "f66858f778eee5937a35e85ac8375aeea965728742545c3d85f1e0452f97e573",
+      "size": 3696
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/c4959a0adbe7a874cb1b2b7641284ede",
+      "sha256": "ef5cd84f347d72425628d44679e6662de6963df04bf1f1498bf4f54b240c4630",
+      "size": 158708
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/c4a6e9904b2007e4d8d4785fcdcc50f0",
+      "sha256": "7015e59df9cde26b32254157422c296a2405c99c926749a8a922adac9bfb0d6f",
+      "size": 1920
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/c5365c6b6f861ed4ebbf709f331de625",
+      "sha256": "2fbdbfaf42cac7cc14ebca21fb66e39e6da546627af0ef370eecd145dab2d6d0",
+      "size": 40372
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/c538f7ffb309fa84a98451eb3945976f",
+      "sha256": "8b234c7d0129581058ca4b133cad616801887bd4f713412771f9c3aea81d1a57",
+      "size": 4916
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/c5de7a38ff3606248a1e166169e71cff",
+      "sha256": "2dbdea292f37ef92b7ce900e5d917fe2dffff39723bf822e205f1fd2458c2a19",
+      "size": 5432
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/c61f5f70dd9f360498e7fbc05a48f995",
+      "sha256": "9ed020a490d85484bebea6e5396ff1f6e7cdd380a5a450d4b804c6ba0b7064b7",
+      "size": 1980
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/c66a968ad6f8b304a98b771d6db5188f",
+      "sha256": "c7c3cc24981df1295d31465cd1ac762d90a15fd2b03c92fc3334c132b156b82d",
+      "size": 1036
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/c69f35ccd1850db40836913399eb4729",
+      "sha256": "2f0e3c44d4873011c1c741efaf2e20a7676570759f9d952a4079652148f1d8c2",
+      "size": 342084
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/c874b39fd1d35274cb34a60847385eb5",
+      "sha256": "d792f1a1ef709fc5709a0e424a536f30d9df9ca4ed7364eba6fe0edfeb9217f9",
+      "size": 40376
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/c8f6a9fe365b9dd40a3886228ff5b74c",
+      "sha256": "9422a64f5d967fdbeb17adf20158611bbca6c048299e61a4f74ccd5cd135db49",
+      "size": 1384
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/ca33f0ab29595244196d48a8823bce46",
+      "sha256": "85e35fbde101757b69fe278815fe7f47f67298c6725c9b6dd8e0276c3800399b",
+      "size": 488
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/cba4896faa1594ce6a9e1831a6cd0f91",
+      "sha256": "baa5b28ba87d55b451569978b33cda0b622592b55dfc1f4146c49b541d32a65f",
+      "size": 7640
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/cdda0fb8c77d7264d905193aafafd3fc",
+      "sha256": "7560de07bb9bfe5ca2e70013791563e85174ce1f4823d17633d1a8ae924ddb56",
+      "size": 324
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/cf14bf4da093cf649983d50d9c4ff836",
+      "sha256": "289a9adfe0b401f813a719f53dec27e62d273871b74e7ecc01f3e42457e36f62",
+      "size": 448
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/cf771227ead8c694dad36809745cdd0b",
+      "sha256": "659edf18546eccebbdc48f6e02274e141605903145a5d300a868ae7f91423e07",
+      "size": 1440
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/cf81c85f95fe47e1a27f6ae460cf182c",
+      "sha256": "eeeafbe36128ad39ebf7fb98e67934d4190733ba25da488888c05b379b2ac802",
+      "size": 7164
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/cfc7cc5bc325b0544b2b2a2b5c0e9535",
+      "sha256": "d7fd2b52b3af313ddca45f5e360e0abf0f296e0bf69480260fad987a2709d8c1",
+      "size": 1044
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/cfd242c98ab12cc40b8b74aedee1ba0c",
+      "sha256": "1fedf9474e4e080f8851ea171b6167bbbf5313af0edb27fed68ead13ba87e152",
+      "size": 4592
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/d105636b7d36f0c478a7b50d9a091bca",
+      "sha256": "4e1cc468711b7afee1bd282c3b9e699372b37fc2cb6759bcd8a8afba151b9794",
+      "size": 4696
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/d1108848de447904c939b8cee5b7d2cf",
+      "sha256": "cbbef3c589a6574eaafbbf1905db7566b2b9ec9f8195eb477d6eb3380f53d416",
+      "size": 342088
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/d13f48655abb74d4abede3bb2115905b",
+      "sha256": "6934461d7843a56c28340e1b3593535cce2b9c82ff3542e273b15c89ce923beb",
+      "size": 200
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/d22bd72bebc3950409d2de288cdcabd2",
+      "sha256": "3127d660f08388457dad498b7f098fdfd4c57c1bcf8f4c3f67f3e79bc064d9ac",
+      "size": 4056
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/d260d61f8f962454a898621eb73f19a6",
+      "sha256": "65cb626ab60473080aaee95514276fa24c31729f4edfe030883ef14c7684d44e",
+      "size": 1250976
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/d2754f47eb19b8747870e7dd52de1e87",
+      "sha256": "d05116bdd23cfa6789498eb327313445b34c39664149ead061dde2150f32976d",
+      "size": 12100
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/d4f0c93a8d9784ffe9d5ea9b814e5751",
+      "sha256": "f4636a352544c8f87dfec4075b472e689d5a8e1d7ba322e41fba6b42bfa3d342",
+      "size": 680
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/d600af752179d4343b26d6d3eab89e8d",
+      "sha256": "ffed934421419e250c9adcef918523d89ac8b81ebb7e0210daa3b342c21e9f11",
+      "size": 4264
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/d731039ebfec33f48a9a477a1969b4c5",
+      "sha256": "5b75cc5a232d741d4e198a0c348c184fbca2fd95d62935ee8c1ccbd7b77cb3e7",
+      "size": 12912
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/d73afc0a5b64af845a0ddf441990d1f8",
+      "sha256": "b0aa26294bef4a144174e1004be971367637f6793540cbe510981ee284cc787d",
+      "size": 626572
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/d7533e2e215c4cd4cb299be33c6805ae",
+      "sha256": "08db592c1aa3f1ecb7ac738be8a956425277fd0ba9f171804c846e804979bc14",
+      "size": 4684
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/d7540181fc229e8448f8276f14347b1b",
+      "sha256": "00ac4f855e78a7b38833f656f61cccf27e7ce405fd67c6015ea63d0205a84a5c",
+      "size": 40376
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/d77ad19165d84b844ac6b715a2ef6998",
+      "sha256": "16d2a2d7f767a575bf8d32487adbede97cde7faf22fe03c7d482940d264972ba",
+      "size": 153444
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/d792b21ba2f3e6e4ba026384d6d6536f",
+      "sha256": "22815c36b5763853be8a14bd38765b8b2231c57195681eaae2f9200931e1a2a1",
+      "size": 1012
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/d7b8f96e1a6d5b448a47d0d284da4cc0",
+      "sha256": "666116323de16cb8f6e81282c6d02deef89c1eddbff6295c5ab83c317555dd47",
+      "size": 3364
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/d82c1b31c7e74239bff1220585707d2b",
+      "sha256": "5260c0f2a0df818366f18d95f6d1d833d0e2d1803b12c4d4f005e90891cdbcd9",
+      "size": 280
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/d82ea5778e73adb4fa43d51a6feefe2c",
+      "sha256": "18e6e58c8c299a4773832114b42b9df4a27c2049a76f53d7ebffa53162ca9ad3",
+      "size": 1916
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/d8aa832d17484724ca18756039d17a17",
+      "sha256": "765ef8e7e317d5a1dd7aa60b55e4ad8af7f17a6987adf2b14325a8e1b9569e9c",
+      "size": 204
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/da2437649238db74ab71ffdde1345ab4",
+      "sha256": "f26ddbf99f53f56790178e7f78a3176daae9003cb4297e496d23092f7736affe",
+      "size": 1060
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/da2bf9c72e4199340af64e2d379620d3",
+      "sha256": "0f245803e154652e4b6cb485537aa0791efce7b4721764ca6abc087f3474f372",
+      "size": 9760
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/da32a818c96758446b5d5b38a8e64409",
+      "sha256": "4d63baa776c312024392d1f0dbb998a2926819fb2fd300f5147b8ab98f32d48c",
+      "size": 1924
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/da33e3b2c2a8d0446825df82ceb62a76",
+      "sha256": "34ae0dd73681423dd4863a9d808f298bcf0a115401f099aa5124b4cce068e00f",
+      "size": 626584
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/da922f905c5813245affa0067d0929a9",
+      "sha256": "ba1053b8859a88c79e13f9b674fd25655b4d21778bfebed4dc02605a9c0ed44f",
+      "size": 626556
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/db41a89f1eb73be458b8e3860497f2b2",
+      "sha256": "6c7abb2071eb50edd7f0f143f7c3abced1cb3a239909bcb1bdc38668db9eec58",
+      "size": 704
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/dba11ee6c324e46f8bd36ffa00d5b6a2",
+      "sha256": "65f6d471263e0f0b348e0d677dc27a7ecd2a260b949f7a14ed1f6c55c3cbc4f1",
+      "size": 512824
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/dbb3a4dffd3fec347b8ff7d298e50f5c",
+      "sha256": "890e4f6bd9f16f78efc14b0cafb6ebca3d3faccdd44dfdd97f43c2b46f822b2f",
+      "size": 1256
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/dc3a6c378aee9d74b99902d620f54e62",
+      "sha256": "2f7716c01da5ce47ceaf8725061f6f01240a18bf410b309404186448a54f3e58",
+      "size": 164536
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/de106b48a5d87437ea9d4ec05dc5f6b3",
+      "sha256": "d3e83809c7213710988e44b3dd3bfe1c3979c48702968f546e4c9e5f5a57c617",
+      "size": 2572
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/de6ef3fdb43092c4bb0ce737ec014085",
+      "sha256": "0c9325853e0e634c49611d771a93fae7679956fb606d15633fd840c7f8185a5f",
+      "size": 2888
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/dfb9dcbb41f367449bcba581bbdedd5c",
+      "sha256": "d9cc962b4079e2088f70fa8a536fb248cc67d47f08bc00d2076b2147d5d66319",
+      "size": 163104
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/dffef66376be4fa480fb02b19edbe903",
+      "sha256": "6f054784dd08d462c767447d86746790cb88f61fd8f184b33b746b9dea3bbeb4",
+      "size": 158696
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/e1508e6f399fb714f8da5539313b45d6",
+      "sha256": "afe45dad5de048e88a3c836b1e1f1ebeeb4346c0e174a6c5cda6e1d07dd5bd38",
+      "size": 1920
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/e1721d77f8f68c941899d270ca2b57f5",
+      "sha256": "16c3ad2f572e599e4f4f1cd56e7302bb92eae3c2562ce7850c31a59836998236",
+      "size": 158708
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/e173931a61b20334c816019c984efc67",
+      "sha256": "0c6af14080821cdd1a4d695a727e86d2935901834016a9ef450356d1eff130f4",
+      "size": 924
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/e1dd3d898336e974e848a38c7d23ad99",
+      "sha256": "46366e629f5ccc92510dcae12b86672e38327d8719ca81316c5d1ee1c808afea",
+      "size": 342084
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/e2e56f25585aba74f8b763341de4bd95",
+      "sha256": "5d29a63c137d58c3e3bb6349014a4a67bd2e6c0c7b0ab3d951051016e515f93e",
+      "size": 158704
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/e2f69e6fc7118f14f9affd272dca2b73",
+      "sha256": "7c85dbc8147851bb70fd15513c6227bac752759528a34988e9fde08991e2b07e",
+      "size": 960
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/e3265ab4bf004d28a9537516768c1c75",
+      "sha256": "8b4e8425d70cec12ef42842435fd003da2eb80b028e74672042c40c20714c716",
+      "size": 353038
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/e3b0a85c70dc7b3419155ace0135de9a",
+      "sha256": "5b6e5840b3062dc0e88624b04c28ca97d3b3657b2243a16bea8ca2d483965361",
+      "size": 832
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/e4ba67e3eb617634c824223f6fb235f9",
+      "sha256": "8443ea0da46e0bd157f807d92d264774b973a5dd6b14c0459ec34e0176c3fb95",
+      "size": 1260
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/e5b6164e7d4f7e94fa1b1e7ac41fd5e9",
+      "sha256": "18e68b7051e04373aced1af6e6be6094bf89074ae8aa999c70e2360f00a125b3",
+      "size": 1704
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/e5d23cb97e44b93469029f476f8ebd37",
+      "sha256": "1728f1a873cf8ee099a09c8d337261d5aa4789fe340e4897680bd81e98edde4d",
+      "size": 4828
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/e664d688bb65af54a9146781a2b6f500",
+      "sha256": "b384e68ee09321f17c93efe955b625df9672f34966692de6f8a6e4d653d77411",
+      "size": 7120
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/e73a58f6e2794ae7b1b7e50b7fb811b0",
+      "sha256": "1e154eb9406bb52cda1ab093dd09760932c9f2453bab09c13d036cb172c4f9b2",
+      "size": 1920
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/e73b3489aec8eb1469531db3dd313072",
+      "sha256": "041a2cb65dd5aa0f590b333d79463a7b818c5901ccc0914ca4aee3612cd206ef",
+      "size": 342084
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/e74618e735cecba42b184caf9111204c",
+      "sha256": "0226942aec6dc48db305f60e2bc5f4d801a59e513aae3c7b4635280a6bcfb49e",
+      "size": 916
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/e86a954b4b975b240a1bb18675bc3328",
+      "sha256": "1a2961fe3c55f239e76fef20b7c1b4ac0a3238db3520f847b46cd77c76f9f6fc",
+      "size": 1044
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/e903e975f6d6f6d4290f431bd8bbd46b",
+      "sha256": "77bd9b5b0db0af755d3d581debf8bd08fa4f93462df0ba6c90cc6814ae6dbecc",
+      "size": 342084
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/e9884694ed64d4f23869582b1d1f31db",
+      "sha256": "4bcda336edc2514d1f89e5d1b55e6f03077ff16f5ba9a15a651a402a5d59e01e",
+      "size": 1084
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/e9da8b88d9292654a914b3f6a1b5952b",
+      "sha256": "1bb8697eb3deeb321013e7c1909768f46c63e3133b1c1848e97e49a59663c0dd",
+      "size": 872
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/ea4ea412f6917124397eeba0f097ec6f",
+      "sha256": "e4e6b08619686d56937ba797a2326b38ce9b710cade4e88dbdec2c77d80a49fb",
+      "size": 200
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/eb9c63dbea1603a4883ffe7969ec7e96",
+      "sha256": "f251ddb9540185cf5781c4f814fc172c9d7ae6a218ea429c80516c77cb91cb66",
+      "size": 342080
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/ec194f0bc3d9ae14082c5e7cff8fb17c",
+      "sha256": "d792f1a1ef709fc5709a0e424a536f30d9df9ca4ed7364eba6fe0edfeb9217f9",
+      "size": 40376
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/ee8fb79b21da5c04b9c731f8a9faadfa",
+      "sha256": "2888fde0032590724e1108262c1d19d860b5dd9fa308a269d962320b2963d756",
+      "size": 1972
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/eeb43aab6e93b004fbad7d067a1d62ea",
+      "sha256": "b2bf9366e49984b4ad27dd57ee30fcda97eeeb22719daff1091a9538a5fb2b91",
+      "size": 3956
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/ef269a72d9c5bff4d92983b06a83716f",
+      "sha256": "9cf2accd429d7b996e4623d0a3e723fe3690dd3f44e4fe7dbc75bdb128e35b2a",
+      "size": 14092
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/efd95e79b6a4e29429c75e87df835891",
+      "sha256": "e3f39b6f74d3987510ee67e473cb7193a56d6e214ddc12b27e88253f7ef36ae2",
+      "size": 1920
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/f01f5070a583b46428e65bf7a927bd16",
+      "sha256": "646842f219ad9d213fccdcd4c1c461f3180ccd271761a98a7a330edd7181913d",
+      "size": 468
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/f0353ad683ac84325be9a093b333710f",
+      "sha256": "aabe89daab9745cf969fb96b6cb6e74e9fd6ae6af8f7f3b4e6b2c001f3f7c01d",
+      "size": 2348
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/f0c28c6f6ad68ae46a740a1c32f7cae7",
+      "sha256": "96841f19b412374659818b7c4ee26372530975f36bfe324e3ead06f350e74b68",
+      "size": 342084
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/f19dfb86b3dbcc44ab45a7eb98bdad57",
+      "sha256": "6913eb07c4f3421187ce70f75b61022804ee4b1304a6d97461279deb64865293",
+      "size": 1920
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/f29a0ab70d309499c9c2d61a919d5020",
+      "sha256": "333638f21a1685701e9977ecaec968596247f13c5b789e252e091239e361479b",
+      "size": 2680
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/f2db4e7e685eab149a3d1a433ef45b3f",
+      "sha256": "a6390134b8aa5152ce6d7834d0e7b4449d65895518377f91ff3e284d0c752858",
+      "size": 200
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/f2e29061558d43d429b7008b151c7e27",
+      "sha256": "5a768dcd69b2fc870d2e86db9ec3a811a4c3b1bc7efca11a91a7636f2919a5f9",
+      "size": 2068
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/f42f93d68948b974a8898de6258bdbcb",
+      "sha256": "8c116b7c5a55c772718f232730d540293c41f79313a9dbe801c0a945ee62401b",
+      "size": 134836
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/f50e0a1ad2f8aa04c922ae30e674fbce",
+      "sha256": "9e777f5bae8f7c75bdffc9e1603968f373053b9feb17178cf3f205fa6018a94c",
+      "size": 1096
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/f54638bf083de834cbc20e29a059186e",
+      "sha256": "359d129aec8f00adbf92baa5841b2a11eba6b347721d7b3b160e5af8926dd766",
+      "size": 848
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/f5b8457953da6c2438b1baf3872fe7ee",
+      "sha256": "01ffe1316166582593dd8b146ecb4f785473bfd6b8ca3f10d226c1202580a6ab",
+      "size": 2804
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/f5fa9de3fcd4f06498a4534435ec3240",
+      "sha256": "72121b0b037d7cd74aba0c623c75cfb0d5741774316ba7189bbdfd2a384fe64b",
+      "size": 792
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/f67fc87666fd34cc7bd91a1afb69dc33",
+      "sha256": "207286837ef212a7b467f515f595d04fe4975b881b43ff06377ce067fa0817bf",
+      "size": 2168
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/f753f52cc8c63524f9ace6fcab377a5b",
+      "sha256": "01816b72a990ff6e0814abd8b3780384e4913d69d2a11faf978e4f9ccd8548a9",
+      "size": 188
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/f819a5fb044d1024baccaa5a88501df2",
+      "sha256": "c9eede5ad2c3226cd58196f1a5bdcc4907c10a1f33f47cb224ad6f637ce92dba",
+      "size": 1704
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/f8ac02e5e051a384ea4184a3dc488e7b",
+      "sha256": "dc883f02abcf2e5d18d871418e206b125f749ee84bf21afb2e99043c22013058",
+      "size": 1204
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/f952c082cb03451daed3ee968ac6c63e",
+      "sha256": "4c50b50106e480515ed8e2b0aef7fcb3b94082cb1a3b8250a3b051624e03d869",
+      "size": 2388
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/fa7dc9d66817692489adc36b17e1bd3e",
+      "sha256": "c1b266cd9446ced362685dd895b79f7c45de5c04f5f9ff10876c32c4818b1aa2",
+      "size": 342084
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/fa81cec4ef495964295e19ee18428ddf",
+      "sha256": "4ad9d0e472df1bbbc02a76657b0d3c8b0957fa693e6bb275dd1de9cd324b2f29",
+      "size": 30528
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/fade42e8bc714b018fac513c043d323b",
+      "sha256": "5285e9338949fe20d9bcd35576d6c0506cd1e15b35b3385fd24c7469c010dc86",
+      "size": 460
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/faf436b1cdd9ef34096a70eed3780261",
+      "sha256": "9a7d5550f3a617a4fb404a28cc290e45457757a64b20917d4ebd29f46a0b1ee1",
+      "size": 672
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/faf88df9fae0748438ea9807963c3787",
+      "sha256": "807174c88635f0d7869f11037ac11da73b12efe0e6a066e782f22a24f96cc473",
+      "size": 1176
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/fafa70c0dbb2a004199fa07d5e056dd5",
+      "sha256": "37bda18e8eb3cbd7580544283ee540e9fa56423018a3ab4bcd4138d494306737",
+      "size": 3240
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/fc6e7a385688aa54ba106892397e8354",
+      "sha256": "de16d88ca3ba1a232cb22653542c24a25ca76e3e308c822816d9c72a93455093",
+      "size": 12988
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/fcebab24781e1624e866e0bd39ebaee9",
+      "sha256": "7b10d4b8198d1b18663fd0fecba7ee85113cde7c02ab51cc038ed903d1a06f9e",
+      "size": 5024
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/fd0dffbcd1d7e794589d5d546a9be5a8",
+      "sha256": "2807d1e3faa14af6894fb960881acaa805a874d6d50e959a20293eb895319f1c",
+      "size": 342088
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/fd1dba115996e554fa0fad8f8d243a92",
+      "sha256": "1deb9adc5bf3faa5851716ef702908cc549423779a23ead9bf19c8a8f666c69b",
+      "size": 1044
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/fe8d9fd131b04ed4a8be3355cb9d4aa9",
+      "sha256": "42639b0d8daa2ba5953f63f259c8d2494bf959988d0e679d5447bcd23b9952b8",
+      "size": 179512
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/fe8f7cd36e24d495c91d49ab5dcedc71",
+      "sha256": "82985f5a495a6b28f609f1c4c185949c87a81cfd981bd5527d2a6c5466288b34",
+      "size": 2684
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/globalgamemanagers",
+      "sha256": "d06c88ccea8ab1c1e998c57a9c2354d0510c17a69b76abbc0013ec5b8008c28f",
+      "size": 436484
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/globalgamemanagers.assets.split0",
+      "sha256": "723d4f6d8d0bda69f54085409a7dc303c2664ad30ecce6a4eda899bea88c62b3",
+      "size": 1048576
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/globalgamemanagers.assets.split1",
+      "sha256": "4a21294ba1b3664a75ab6f11947ef9b90a59f228cc793fe71c6f51bc47dfdd42",
+      "size": 1048576
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/globalgamemanagers.assets.split2",
+      "sha256": "ac2d170fee23dcb4184bbfd58afab51f8c6aa20643b94925b798d6ce42a77e48",
+      "size": 1048576
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/globalgamemanagers.assets.split3",
+      "sha256": "93cb768afad13d76fdec9964af6c2adc1b804acf0680dd3553e9d7b745a3b867",
+      "size": 407020
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/level0",
+      "sha256": "2576f4b96c15b9336d6a999b5a836d37174bc11d564dea5dc0c8dc8002ade092",
+      "size": 224868
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/Managed/Metadata/global-metadata.dat",
+      "sha256": "faa1f5c431bc6221383fe3045d1cc52b483bc36c4fc2ea7252a42de3da2a28b6",
+      "size": 15450074
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/Managed/Resources/mscorlib.dll-resources.dat",
+      "sha256": "c5baa176a5b72cd545266340e42102d393a5e43d38c95796bc828918bb95277f",
+      "size": 337563
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/Managed/Resources/Newtonsoft.Json.dll-resources.dat",
+      "sha256": "531de49e73ddea25554c9f656f54da2a665946f3fec57048e0cfe3b9e49b03f8",
+      "size": 900
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/Managed/Resources/System.Data.dll-resources.dat",
+      "sha256": "98a7950ec6de3242c2e190dfa630188dfa32511a125542b94baa952d1c757d49",
+      "size": 93718
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/Managed/Resources/System.Drawing.dll-resources.dat",
+      "sha256": "7c33aa707bc3fdc83991b81a97d6fc622b140762a767300f08f616c2c0a91255",
+      "size": 25453
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/Resources/unity default resources",
+      "sha256": "d1b39f04e41d0018e3120c189220fc9bf6ded8e92ffe2f53163e3a80856f2a3a",
+      "size": 3775680
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/Resources/unity_builtin_extra",
+      "sha256": "898e7f513efb6838f2bcb680557e1415a9ae6ec20c20acd2221debd20b339814",
+      "size": 523364
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/RuntimeInitializeOnLoads.json",
+      "sha256": "3e79fdd910764e54f8eb5cdb87069804d14bfdd67fe195de24682e348e291365",
+      "size": 14127
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/ScriptingAssemblies.json",
+      "sha256": "ee4c8912df56a1450ebd081c5116a2cd23abf351b5b68737474ea16945bba6d8",
+      "size": 6072
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/sharedassets0.assets.split0",
+      "sha256": "e0220bef8074c79737d324cb3a29faf8fc06c3051aa3813ee21f391633a9cde1",
+      "size": 1048576
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/sharedassets0.assets.split1",
+      "sha256": "c955bcdd9e27e41f0dc1952a0a649ddbe991adf61ff5db31bc98a636fcf16ab1",
+      "size": 1048576
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/sharedassets0.assets.split10",
+      "sha256": "336c424d5d6a211baf5a02dda6f9c3593f2c59a933d09d63102c7f2e95d3bdd0",
+      "size": 1048576
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/sharedassets0.assets.split11",
+      "sha256": "3caa45fb41912ff95491662a4a4d8a39cb898e6f935017977c16893efabb7b45",
+      "size": 1048576
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/sharedassets0.assets.split12",
+      "sha256": "5b268ffcd7d1e7170ab0fcebdfc3f3fcacbb34ec45f71ef43af36782dc96d0ed",
+      "size": 1048576
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/sharedassets0.assets.split13",
+      "sha256": "b840b495c94536addadbde9a874ea657e4d9d210c2cefa60509fe5d160479e2b",
+      "size": 1048576
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/sharedassets0.assets.split14",
+      "sha256": "ea34d9080285d826b797d463003d6936b7a43e70f4a98c53f1ab3863dfba8579",
+      "size": 1048576
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/sharedassets0.assets.split15",
+      "sha256": "f1d2adddd5379a8024603b98c3b8abfc1e6eb522e48ec7f8c014363a75f2a9f8",
+      "size": 1048576
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/sharedassets0.assets.split16",
+      "sha256": "2c780e1718dd50cd40bfff7245b3ba1bf30437bbb5670c7bbcd659cc2387bb0e",
+      "size": 1048576
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/sharedassets0.assets.split17",
+      "sha256": "285a016d9e83355f0dead04be30282239265f1f617b1055fe6f657df0345efc4",
+      "size": 1048576
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/sharedassets0.assets.split18",
+      "sha256": "a56c4b2e143673be4b4e6ef7c668da66df707c95f4117c61ffd4138e5752bb82",
+      "size": 1048576
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/sharedassets0.assets.split19",
+      "sha256": "26f88d33e19f921e18003cb2cdd3c69f16512875e3d3f569d73cfc9f9f492caa",
+      "size": 1048576
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/sharedassets0.assets.split2",
+      "sha256": "db4a4437adab723f34eee51d76e7a560cba072867712ce7da0735ec3fc7c2250",
+      "size": 1048576
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/sharedassets0.assets.split20",
+      "sha256": "f86a3ba1f3f4be0a0701fd5bc0ef20f65f98b4a06be951304955e4873d5556af",
+      "size": 1048576
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/sharedassets0.assets.split21",
+      "sha256": "26ffcda4bef698509d2a51ecc3d12fb0a3cc7e26f67963b321174c78eaafcb0a",
+      "size": 1048576
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/sharedassets0.assets.split22",
+      "sha256": "9f4a1925f99b7eab50e4f8e697ab266515dc5e488cb14c0147325496805f639f",
+      "size": 1048576
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/sharedassets0.assets.split23",
+      "sha256": "2c3e47c9aec6a4282545bee83cad525f09446ac1e4447b5115e244f869ad1449",
+      "size": 1048576
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/sharedassets0.assets.split24",
+      "sha256": "2974f2d27ceae179f8c4624c862bf0e8d94134981a50245ddfc4dd4609614fff",
+      "size": 1048576
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/sharedassets0.assets.split25",
+      "sha256": "43791515561726742489d1734ed5eedfe5bdbcfd6e5ab735175371778ce4d3b4",
+      "size": 1048576
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/sharedassets0.assets.split26",
+      "sha256": "df65c6ca9f0cb6da486b498d6f3776b059fbee00895efd563b181fc26443c716",
+      "size": 1048576
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/sharedassets0.assets.split27",
+      "sha256": "ef400330f310980ac5221d0a6be54397a7fcdbd2fbdbb987c715f87f7465642b",
+      "size": 1048576
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/sharedassets0.assets.split28",
+      "sha256": "c34707ee0a3cf489ea2d79ccd51467615ba113a20e1be84b1ba19b806acdb763",
+      "size": 1048576
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/sharedassets0.assets.split29",
+      "sha256": "6d2a3a712a38df3b3e50880a360a8496a7d901f31a58db9bdd752278491993a3",
+      "size": 1048576
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/sharedassets0.assets.split3",
+      "sha256": "ace2243c5bfc4adf06b3ca1869af8a0fcbf9df21b3ab206196efaf0f85a8de22",
+      "size": 1048576
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/sharedassets0.assets.split30",
+      "sha256": "71200885f085fe2674c56936690e1afafc8195e94a92b373c7d0f5aa77a5150b",
+      "size": 1048576
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/sharedassets0.assets.split31",
+      "sha256": "41fc73beb5ab71dc48784d2acad9305e2a7d30689b6e1dcabde7221114bf37e0",
+      "size": 1048576
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/sharedassets0.assets.split32",
+      "sha256": "88fc2072f9e20d98b718a38ba63d18676459df5d0f41fdbe78ab388e3d3ccc88",
+      "size": 1048576
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/sharedassets0.assets.split33",
+      "sha256": "ce89e77cc28339dca9983d62a2e59cf06a158614e3fcbc44896f116e7a86e457",
+      "size": 1048576
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/sharedassets0.assets.split34",
+      "sha256": "8208a54022519e2f9c4cf0654a63f678d1ad6eaad9c0634fc78b7bdc0c24f725",
+      "size": 1048576
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/sharedassets0.assets.split35",
+      "sha256": "e7b18c023cbc0b2fc7cc17c6aab4a801f89bcd2a46a86f2c7e5701ccfc85a561",
+      "size": 1048576
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/sharedassets0.assets.split36",
+      "sha256": "6038203e3ac3028bbd768c1c9fa768a8d06ec7830cf8020143d42152aacd2fc7",
+      "size": 1048576
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/sharedassets0.assets.split37",
+      "sha256": "8129b05d1d39a8d289664756a123249868d191466bfdb1c58a343b3a1accc43f",
+      "size": 1048576
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/sharedassets0.assets.split38",
+      "sha256": "ddd1cbbd87285ab3998c04c289b70475e7614db5db108e27c4810e9054d1dcc0",
+      "size": 752036
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/sharedassets0.assets.split4",
+      "sha256": "2692f48251375b90f2307b7a9e66544628cad41652782d9ef204db841fa79288",
+      "size": 1048576
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/sharedassets0.assets.split5",
+      "sha256": "81afb75b9340f357c0066889fc93554f682fd8e886d48f2656c93e1284df9456",
+      "size": 1048576
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/sharedassets0.assets.split6",
+      "sha256": "1024df802dafb12c6330974f634caa4929f870c50fc330556aa116f89288b5a0",
+      "size": 1048576
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/sharedassets0.assets.split7",
+      "sha256": "67eff346c8aa816ed6946571655769747ea02f08bf6cd2630fffb5bf9405f5ec",
+      "size": 1048576
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/sharedassets0.assets.split8",
+      "sha256": "4969d0875f8af50ca30628b65d708db324fb80d2ca61704fd8c78cba55b93ee2",
+      "size": 1048576
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/sharedassets0.assets.split9",
+      "sha256": "058efa1d1ceab6e7d502e2a7e791cef6102809c36c22377a2a05b207b7b6b87a",
+      "size": 1048576
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/unity_app_guid",
+      "sha256": "235b041446c7d4c92b76f88ebef9348b53071798e2cd0de344b39a22ee6257ef",
+      "size": 36
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/UnitySubsystems/PxrPlatform/UnitySubsystemsManifest.json",
+      "sha256": "d048e3ffd322d6910202577b13170a6ef71bc98afcc240ce4c9116dbd65b9411",
+      "size": 539
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/UnitySubsystems/StagePlatform/UnitySubsystemsManifest.json",
+      "sha256": "f9a1bf44985bebece61705aa705d93da9e790ecf214a4fc00a2f2cb18a1a0910",
+      "size": 325
+    },
+    {
+      "path": "app/src/main/assets/bin/Data/UnitySubsystems/UnityOpenXR/UnitySubsystemsManifest.json",
+      "sha256": "2528d0caa5fb4c4ea91ed74fb88315fca934158314bcec29d12fbeaac8e7cfd6",
+      "size": 250
+    },
+    {
+      "path": "app/src/main/assets/ExampleProjects/booth_demo.spacecanvas",
+      "sha256": "a06fa95b41656f8a9fb57122ef2792bbd839a2e51bc1c0777d572ea098bc5938",
+      "size": 2504
+    },
+    {
+      "path": "app/src/main/assets/ExampleProjects/desk_demo.spacecanvas",
+      "sha256": "a875bc7bbbf700b246f752ce42b147603024523b70d81426bea2279fa6a60d93",
+      "size": 2467
+    },
+    {
+      "path": "app/src/main/assets/ExampleProjects/livingroom_demo.spacecanvas",
+      "sha256": "0e2e375440fdfdf6e7adee4e69c0f56e3b3ed85de22ed7a19c2c8008ac2ace38",
+      "size": 2437
+    },
+    {
+      "path": "app/src/main/assets/SpaceCanvasDocs/5星验收与能力矩阵.md",
+      "sha256": "9efa165fd6ea2ab416f75f5e0a65159179434da522b13ff85feb75ba4de36b28",
+      "size": 5097
+    },
+    {
+      "path": "app/src/main/assets/SpaceCanvasDocs/编辑体验与恢复优化说明.md",
+      "sha256": "db134ec9114fbe3aa076420d8aeea1a892f048e0c0c3c38126beb209288ca315",
+      "size": 5527
+    },
+    {
+      "path": "app/src/main/assets/SpaceCanvasDocs/从头显导入Unity.md",
+      "sha256": "b6244e55297912e86877b0bc1c44cd3ef348ec536eb903c3f5524d0c01da2022",
+      "size": 5084
+    },
+    {
+      "path": "app/src/main/assets/SpaceCanvasDocs/存档版本识别与导入确认.md",
+      "sha256": "44b91c07e1323fea303107c4c37725185f895b7f32065c9f15f44cd4d45ad529",
+      "size": 2813
+    },
+    {
+      "path": "app/src/main/assets/SpaceCanvasDocs/交互优化 0.3.2.md",
+      "sha256": "296a2d2163bb335fbb62937d429a4bb576fc67e50ba86ca0b38a4079b1f01fd2",
+      "size": 3468
+    },
+    {
+      "path": "app/src/main/assets/SpaceCanvasDocs/评审评分说明.md",
+      "sha256": "1367b4a446bfa8d402869f203ebcb844eaed1a93c49da379bc8430ae67e35c7b",
+      "size": 2602
+    },
+    {
+      "path": "app/src/main/assets/SpaceCanvasDocs/素材材质与配色说明.md",
+      "sha256": "84b4372aea56b2f86e7c5d4cddd4ca0998cc52f101788b24833b6d0eeac6647a",
+      "size": 2048
+    },
+    {
+      "path": "app/src/main/assets/SpaceCanvasDocs/新手教学接入说明.md",
+      "sha256": "cc823b79de11908d8a5c6a070a853291a1f4169b5378550466174b32ed63f981",
+      "size": 2015
+    },
+    {
+      "path": "app/src/main/assets/SpaceCanvasDocs/应用图标配置.md",
+      "sha256": "0a4494184675a3ea4dd1cc89a3c9d13a2fb3f774d2c4ff88a78a5dded3a6aac1",
+      "size": 1186
+    },
+    {
+      "path": "app/src/main/assets/SpaceCanvasDocs/真实家具素材来源与接入说明.md",
+      "sha256": "61562de9f74c1e993d6f61597d454f9ea1250d5c49ac342b0069a055f9c42c00",
+      "size": 2631
+    },
+    {
+      "path": "app/src/main/assets/SpaceCanvasDocs/LICENSE.txt",
+      "sha256": "fa6f2d5a9bf32cbaba0977e8df6453b3dc8ad467fc4ee2a368d3b207082f9df9",
+      "size": 1653
+    },
+    {
+      "path": "app/src/main/assets/SpaceCanvasDocs/MR界面与射线改版说明.md",
+      "sha256": "ba451263c5a90535447d9f3287a12450e36c48ed4ef5d63ccd0722605fec22d5",
+      "size": 2748
+    },
+    {
+      "path": "app/src/main/assets/SpaceCanvasDocs/PICO-SDK-6.1.1能力清单.md",
+      "sha256": "221323d423f553d47a1683efb0497ee829f69600a1176c76acf50e6215094bb2",
+      "size": 2559
+    },
+    {
+      "path": "app/src/main/assets/SpaceCanvasDocs/PICO导入Unity再打包一致性.md",
+      "sha256": "62d63a0f278b13f3f8ff49d7b1f11c987ba9141c8a221a5a86df6c2ca9d4807d",
+      "size": 2404
+    },
+    {
+      "path": "app/src/main/assets/SpaceCanvasDocs/PolyHaven-CC0-1.0.txt",
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "size": 7048
+    },
+    {
+      "path": "app/src/main/assets/SpaceCanvasDocs/SpaceCanvas工程格式.schema.json",
+      "sha256": "b095e9f4bd2be70bf626fba3a29a67a81f1242cd254e2277c922737064d21f62",
+      "size": 3082
+    },
+    {
+      "path": "app/src/main/assets/SpaceCanvasDocs/SpaceCanvas工程格式规范v1.0.md",
+      "sha256": "4aa298edb0f251ef590c8af5e984321a20befd1f1a17ca8be892c4acf1dca9e0",
+      "size": 6593
+    },
+    {
+      "path": "app/src/main/assets/SpaceCanvasDocs/Swan接入说明.md",
+      "sha256": "bafab5e267bde7466057e41029e1167243181e65c173ef5f9e1e98bba40c374c",
+      "size": 7695
+    },
+    {
+      "path": "app/src/main/assets/SpaceCanvasDocs/UI清晰度修复说明.md",
+      "sha256": "a72a5ad1a8c25066580d1fa8efdeccfc8f7ab8fab66852453b3373607fca8b7b",
+      "size": 5754
+    },
+    {
+      "path": "app/src/main/assets/SpaceCanvasDocs/Unity6迁移说明.md",
+      "sha256": "60d4f0247113e87d85cf645afdb1dd9451d3e0420f48dfe9d18039896ea7d541",
+      "size": 4177
+    },
+    {
+      "path": "app/src/main/java/com/unity3d/player/UnityPlayerActivity.java",
+      "sha256": "a54ff38c357fd2d42d86f72affb370b5e95c8759177e5ec501ee835bd559f067",
+      "size": 6533
+    },
+    {
+      "path": "app/src/main/jniLibs/arm64-v8a/lib_burst_generated.so",
+      "sha256": "e0348716c14e10878f42468ab19e24b301647969c80c30234c1d86c298a3e6f5",
+      "size": 585280
+    },
+    {
+      "path": "app/src/main/jniLibs/arm64-v8a/libil2cpp.so",
+      "sha256": "338a9bd08f13a59fb84d08696aa5742e1297962d018d070fd70c30f3d8cf4961",
+      "size": 77198392
+    },
+    {
+      "path": "app/src/main/jniLibs/arm64-v8a/libmain.so",
+      "sha256": "b8bb0b1924f6908277a4573c4f894c76ca75ca37a19029068d6f2d9322ddc41d",
+      "size": 8720
+    },
+    {
+      "path": "app/src/main/jniLibs/arm64-v8a/libPicoAmbisonicDecoder.so",
+      "sha256": "6d52d4ddd2422a4fb4cf1b76bcd6edaf087a9606dabc7c14e95fb1d99512cbd4",
+      "size": 2685736
+    },
+    {
+      "path": "app/src/main/jniLibs/arm64-v8a/libPicoAudioRouter.so",
+      "sha256": "639d5a2f851760896f4638ef0c8e0b3e05e6c01552148deebedb92c00fe09673",
+      "size": 186496
+    },
+    {
+      "path": "app/src/main/jniLibs/arm64-v8a/libPicoAudioSDKUnityNativePlugin.so",
+      "sha256": "e5d04e7a51d2248c0ba54d4bb4b8c11230c139ab56c4f037cd8181a07fef5167",
+      "size": 8117544
+    },
+    {
+      "path": "app/src/main/jniLibs/arm64-v8a/libunity.so",
+      "sha256": "a5161c89df445253c5f8ca779900326b10121a6ff92ba8170183db67c86b7a0f",
+      "size": 43021872
+    },
+    {
+      "path": "app/src/main/jniLibs/arm64-v8a/libUnityOpenXR.so",
+      "sha256": "70dc105279b325e54704ceeed463885d466cee77dd229a879cec2cfc7f71e69b",
+      "size": 1569448
+    },
+    {
+      "path": "app/src/main/jniLibs/arm64-v8a/libUnityOpenXRHands.so",
+      "sha256": "18ac41c6b559d16ae86672204897ec2dc3f915321e97446717ffbe76bae54024",
+      "size": 202776
+    },
+    {
+      "path": "app/src/main/res/mipmap-anydpi-v26/app_icon.xml",
+      "sha256": "44cc3246d167bd718fb61feaba493850ff95255c1ddbb8854c0e4c0534832f96",
+      "size": 266
+    },
+    {
+      "path": "app/src/main/res/mipmap-hdpi/ic_launcher_background.png",
+      "sha256": "c3c9bde2c5dc214579d98677f91af2a89557329e11e8bb2191317ad9273ac2be",
+      "size": 1972
+    },
+    {
+      "path": "app/src/main/res/mipmap-hdpi/ic_launcher_foreground.png",
+      "sha256": "b5187f482c8343fc5155e1e31f59d536e11f044824a28f3550f9420014451503",
+      "size": 6035
+    },
+    {
+      "path": "app/src/main/res/mipmap-ldpi/ic_launcher_background.png",
+      "sha256": "5ad7dda807439b60c598ff966c3fac0809104f9d101cc49720507604b7ebfe62",
+      "size": 604
+    },
+    {
+      "path": "app/src/main/res/mipmap-ldpi/ic_launcher_foreground.png",
+      "sha256": "9034bd55b9ce6d71866fae27607417edf70c5b9f45de958972be62e95d3a3b0e",
+      "size": 2740
+    },
+    {
+      "path": "app/src/main/res/mipmap-mdpi/app_icon.png",
+      "sha256": "0b66d351df6a389b2e9a8b649ef8a18b9bd75ee8b4bc26a63823ca01bcccccad",
+      "size": 66683
+    },
+    {
+      "path": "app/src/main/res/mipmap-mdpi/ic_launcher_background.png",
+      "sha256": "f82f3d675cd23c34fa29a6fc3138d460f37126f3c3d730d35912305ee470cbe0",
+      "size": 842
+    },
+    {
+      "path": "app/src/main/res/mipmap-mdpi/ic_launcher_foreground.png",
+      "sha256": "3b5dcd96ddeae42c3812dbfc6061be9c7851965619c1563fb08d34c7a9854396",
+      "size": 3803
+    },
+    {
+      "path": "app/src/main/res/mipmap-xhdpi/ic_launcher_background.png",
+      "sha256": "7ff61550ffc185f53497c923d2e1f7ed1f1cf79ea2a045a273b8192ad0659f7a",
+      "size": 3177
+    },
+    {
+      "path": "app/src/main/res/mipmap-xhdpi/ic_launcher_foreground.png",
+      "sha256": "7ac6b97fc26c35bed3257b9620530fc14ec5a84733c8664bd2338ea1a3619b79",
+      "size": 8233
+    },
+    {
+      "path": "app/src/main/res/mipmap-xxhdpi/ic_launcher_background.png",
+      "sha256": "ba63606b6cd4f48f33eb8f658e1eba44c4ee8cd6d177b6ad8e586be3608b99d1",
+      "size": 5291
+    },
+    {
+      "path": "app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.png",
+      "sha256": "6137c955567cad38378e3408642b6c91c06ba344ceae7d539cdf449f6318f8ce",
+      "size": 12888
+    },
+    {
+      "path": "app/src/main/res/mipmap-xxxhdpi/ic_launcher_background.png",
+      "sha256": "37ed5ba10a4130a88b4399bd69a4ddf22b60d54ff5b1819e5afbb77490eec115",
+      "size": 9342
+    },
+    {
+      "path": "app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png",
+      "sha256": "bd195b915d17985fa0a3bb2176da3e3778f390848c2defb283acf640b06491bb",
+      "size": 19503
+    },
+    {
+      "path": "app/src/main/res/values-v21/styles.xml",
+      "sha256": "a6268e0bb472285157b76d092ce3f1fed66b9122b24bd4aeb34654a2bc3ce538",
+      "size": 293
+    },
+    {
+      "path": "app/src/main/res/values-v30/freeformwindow.xml",
+      "sha256": "f879f85c06803e416f089e0546c75fe6d32c75ee8e9158c8c569fe89a1fbfbbb",
+      "size": 395
+    },
+    {
+      "path": "app/src/main/res/values-v31/styles.xml",
+      "sha256": "df8b42ce991b2c1b89d58a4628966e3038c35b903e7e3dc57d05a54dede705d8",
+      "size": 910
+    },
+    {
+      "path": "app/src/main/res/values/colors.xml",
+      "sha256": "ea051d017e94cf9ee1df3d5e9e9a181624d999e57006fc894a7ec405f4756fc3",
+      "size": 312
+    },
+    {
+      "path": "app/src/main/res/values/freeformwindow.xml",
+      "sha256": "425d3881c49fbdc050a94641abe5c55bc56aca2e214fba010c4b1ed3a8f3f9bc",
+      "size": 359
+    },
+    {
+      "path": "app/src/main/res/values/ids.xml",
+      "sha256": "8f9e8dc7a26056d00606d53359a35fae3aa2db85ccb231b583922f7733791ee0",
+      "size": 111
+    },
+    {
+      "path": "app/src/main/res/values/strings.xml",
+      "sha256": "c090d730eb6d4b407ea06214e7a34f4dde3d5531fef3777cbdd897e420547f43",
+      "size": 183
+    },
+    {
+      "path": "app/src/main/res/values/styles.xml",
+      "sha256": "a34012d1223d6c0f2e05b666ecf3351b239dcde4022989ebe1dcccf31dc4638f",
+      "size": 807
+    },
+    {
+      "path": "app/src/main/resources/META-INF/com.android.games.engine.build_fingerprint",
+      "sha256": "e992d8f4e2e949bb19885d2f0af56551dda9c9180a7ef45da95a825a841cefbd",
+      "size": 87
+    }
+  ]
+}

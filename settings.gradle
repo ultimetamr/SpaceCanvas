@@ -1,0 +1,20 @@
+pluginManagement {
+    repositories {
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+// Unity source stays in Assets/; the Android runner packages a compiled Unity snapshot.
+rootProject.name = 'SpaceCanvas'
+include ':app'
+project(':app').projectDir = file('CloudAndroid/app')

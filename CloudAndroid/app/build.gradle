@@ -1,0 +1,58 @@
+plugins {
+    id 'com.android.application'
+}
+
+def unitySnapshot = new groovy.json.JsonSlurper().parse(rootProject.file('CloudAndroid/snapshot.json'), 'UTF-8')
+
+dependencies {
+    // Application runtime dependencies produced by Unity, not the PICO SDK source package.
+    implementation fileTree(dir: 'libs', include: ['*.jar', '*.aar'])
+}
+
+android {
+    namespace 'com.unity3d.player'
+    compileSdk 36
+    buildToolsVersion '36.0.0'
+
+    defaultConfig {
+        applicationId unitySnapshot.applicationId
+        minSdk 29
+        targetSdk 36
+        versionCode unitySnapshot.versionCode as int
+        versionName unitySnapshot.versionName
+        ndk { abiFilters 'arm64-v8a' }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            // Mirrors the existing Unity test APK. The service may apply its own signing.
+            // No keystore or password is committed. This is not a production signing identity.
+            signingConfig signingConfigs.debug
+        }
+    }
+
+    androidResources {
+        // Unity loads these files directly; compression changes can break runtime access.
+        noCompress += ['unity3d', 'ress', 'resource', 'obb', 'bundle', 'unityexp', 'spacecanvas', 'md', 'txt', 'json']
+        ignoreAssetsPattern = '!.svn:!.git:!.ds_store:!*.scc:!CVS:!thumbs.db:!picasa.ini:!*~'
+    }
+
+    packaging {
+        jniLibs {
+            useLegacyPackaging true
+            // Native libraries were already built by Unity. Cloud packaging needs no NDK.
+            // Keep the verified bytes instead of stripping them with another toolchain.
+            keepDebugSymbols += ['**/*.so']
+        }
+    }
+
+    lint { abortOnError false }
+}
+
+tasks.named('preBuild').configure { dependsOn rootProject.tasks.named('verifyUnitySnapshot') }

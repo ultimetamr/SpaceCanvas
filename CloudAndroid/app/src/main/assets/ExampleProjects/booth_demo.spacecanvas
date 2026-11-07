@@ -1,0 +1,19 @@
+{
+  "formatVersion": "1.0",
+  "projectName": "Booth Demo",
+  "createTime": 1730000000,
+  "updateTime": 1730000000,
+  "settings": { "unitSystem": "Meter", "gridEnabled": true, "gridSize": 0.5 },
+  "objects": [
+    { "id": "backwall", "assetId": "exhibit.backwall", "parentId": "", "localPosition": [0,1.5,2], "localRotation": [0,0,0,1], "localScale": [3,1.5,0.15], "colorHex": "#1E3A5F", "alpha": 1, "metallic": 0.1, "colliderEnabled": true },
+    { "id": "counter", "assetId": "exhibit.counter", "parentId": "", "localPosition": [0,0.55,0.8], "localRotation": [0,0,0,1], "localScale": [1.6,1,0.7], "colorHex": "#F0A23B", "alpha": 1, "metallic": 0.2, "colliderEnabled": true },
+    { "id": "banner", "assetId": "exhibit.banner", "parentId": "", "localPosition": [-2,1.3,1.8], "localRotation": [0,0,0,1], "localScale": [0.7,1.4,0.1], "colorHex": "#F4F1E8", "alpha": 1, "metallic": 0, "colliderEnabled": false },
+    { "id": "spotlight1", "assetId": "exhibit.spotlight", "parentId": "", "localPosition": [-1.4,2.8,1.5], "localRotation": [0,0,0,1], "localScale": [0.3,0.3,0.3], "colorHex": "#FFFFFF", "alpha": 1, "metallic": 0.8, "colliderEnabled": false },
+    { "id": "spotlight2", "assetId": "exhibit.spotlight", "parentId": "", "localPosition": [1.4,2.8,1.5], "localRotation": [0,0,0,1], "localScale": [0.3,0.3,0.3], "colorHex": "#FFFFFF", "alpha": 1, "metallic": 0.8, "colliderEnabled": false },
+    { "id": "stool1", "assetId": "exhibit.stool", "parentId": "", "localPosition": [-0.7,0.4,0.2], "localRotation": [0,0,0,1], "localScale": [0.6,0.6,0.6], "colorHex": "#D85D4B", "alpha": 1, "metallic": 0.1, "colliderEnabled": true },
+    { "id": "stool2", "assetId": "exhibit.stool", "parentId": "", "localPosition": [0.7,0.4,0.2], "localRotation": [0,0,0,1], "localScale": [0.6,0.6,0.6], "colorHex": "#D85D4B", "alpha": 1, "metallic": 0.1, "colliderEnabled": true },
+    { "id": "plant", "assetId": "decor.plant", "parentId": "", "localPosition": [2.1,0.7,1.1], "localRotation": [0,0,0,1], "localScale": [0.8,0.8,0.8], "colorHex": "#4D8B57", "alpha": 1, "metallic": 0, "colliderEnabled": true },
+    { "id": "floor", "assetId": "primitive.plane", "parentId": "", "localPosition": [0,0,0], "localRotation": [0,0,0,1], "localScale": [3.5,3.5,3.5], "colorHex": "#C8C8C8", "alpha": 1, "metallic": 0, "colliderEnabled": true }
+  ],
+  "groups": [ { "groupId": "booth-fixtures", "groupName": "Booth Fixtures", "childIds": ["backwall","counter","banner","spotlight1","spotlight2","stool1","stool2","plant"] } ]
+}
