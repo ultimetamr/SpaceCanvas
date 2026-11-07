@@ -1,0 +1,68 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://spacecanvas.example/schema/spacecanvas-1.0.json",
+  "title": "SpaceCanvas Project",
+  "type": "object",
+  "required": ["formatVersion", "projectName", "createTime", "updateTime", "settings", "objects", "groups"],
+  "properties": {
+    "formatVersion": { "type": "string", "const": "1.0" },
+    "projectName": { "type": "string", "minLength": 1 },
+    "createTime": { "type": "integer", "minimum": 0 },
+    "updateTime": { "type": "integer", "minimum": 0 },
+    "savedAtUtcMilliseconds": { "type": "integer", "minimum": 0 },
+    "preview": {
+      "type": "object",
+      "required": ["encoding", "pngBase64", "captureTime"],
+      "properties": {
+        "encoding": { "type": "string", "const": "png-base64" },
+        "pngBase64": { "type": "string", "maxLength": 349528, "contentEncoding": "base64", "contentMediaType": "image/png" },
+        "captureTime": { "type": "integer", "minimum": 0 }
+      },
+      "additionalProperties": true
+    },
+    "settings": {
+      "type": "object",
+      "required": ["unitSystem", "gridEnabled", "gridSize"],
+      "properties": {
+        "unitSystem": { "type": "integer", "enum": [0, 1, 2], "description": "0=m, 1=cm, 2=mm" },
+        "gridEnabled": { "type": "boolean" },
+        "gridSize": { "type": "number", "exclusiveMinimum": 0 }
+      },
+      "additionalProperties": true
+    },
+    "objects": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "assetId", "parentId", "localPosition", "localRotation", "localScale", "colorHex", "alpha", "metallic", "colliderEnabled"],
+        "properties": {
+          "id": { "type": "string", "minLength": 1 },
+          "assetId": { "type": "string", "minLength": 1 },
+          "parentId": { "type": "string" },
+          "localPosition": { "type": "array", "prefixItems": [{"type":"number"},{"type":"number"},{"type":"number"}], "minItems": 3, "maxItems": 3 },
+          "localRotation": { "type": "array", "prefixItems": [{"type":"number"},{"type":"number"},{"type":"number"},{"type":"number"}], "minItems": 4, "maxItems": 4 },
+          "localScale": { "type": "array", "prefixItems": [{"type":"number"},{"type":"number"},{"type":"number"}], "minItems": 3, "maxItems": 3 },
+          "colorHex": { "type": "string", "pattern": "^#[0-9A-Fa-f]{6}([0-9A-Fa-f]{2})?$" },
+          "alpha": { "type": "number", "minimum": 0, "maximum": 1 },
+          "metallic": { "type": "number", "minimum": 0, "maximum": 1 },
+          "colliderEnabled": { "type": "boolean" }
+        },
+        "additionalProperties": true
+      }
+    },
+    "groups": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["groupId", "groupName", "childIds"],
+        "properties": {
+          "groupId": { "type": "string", "minLength": 1 },
+          "groupName": { "type": "string" },
+          "childIds": { "type": "array", "items": { "type": "string" } }
+        },
+        "additionalProperties": true
+      }
+    }
+  },
+  "additionalProperties": true
+}

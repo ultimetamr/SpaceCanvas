@@ -1,0 +1,19 @@
+{
+  "formatVersion": "1.0",
+  "projectName": "Desk Demo",
+  "createTime": 1730000000,
+  "updateTime": 1730000000,
+  "settings": { "unitSystem": "Meter", "gridEnabled": true, "gridSize": 0.1 },
+  "objects": [
+    { "id": "desk", "assetId": "furniture.desk", "parentId": "", "localPosition": [0,0.75,0], "localRotation": [0,0,0,1], "localScale": [1.8,1,0.9], "colorHex": "#6B4F3A", "alpha": 1, "metallic": 0.1, "colliderEnabled": true },
+    { "id": "chair", "assetId": "office.office_chair", "parentId": "", "localPosition": [0,0.6,1], "localRotation": [0,1,0,0], "localScale": [1,1,1], "colorHex": "#283845", "alpha": 1, "metallic": 0.1, "colliderEnabled": true },
+    { "id": "monitor", "assetId": "office.monitor", "parentId": "", "localPosition": [0,1.45,-0.15], "localRotation": [0,0,0,1], "localScale": [0.9,0.9,0.2], "colorHex": "#242A30", "alpha": 1, "metallic": 0.5, "colliderEnabled": true },
+    { "id": "keyboard", "assetId": "office.keyboard", "parentId": "", "localPosition": [0,1.05,0.35], "localRotation": [0,0,0,1], "localScale": [0.7,0.2,0.3], "colorHex": "#D9D9D9", "alpha": 1, "metallic": 0.1, "colliderEnabled": false },
+    { "id": "mouse", "assetId": "office.mouse", "parentId": "", "localPosition": [0.65,1.05,0.35], "localRotation": [0,0,0,1], "localScale": [0.2,0.2,0.3], "colorHex": "#D9D9D9", "alpha": 1, "metallic": 0.1, "colliderEnabled": false },
+    { "id": "plant", "assetId": "office.plant", "parentId": "", "localPosition": [-0.7,1.1,-0.2], "localRotation": [0,0,0,1], "localScale": [0.5,0.5,0.5], "colorHex": "#4D8B57", "alpha": 1, "metallic": 0, "colliderEnabled": true },
+    { "id": "partition", "assetId": "office.partition", "parentId": "", "localPosition": [1.6,1,0], "localRotation": [0,0,0,1], "localScale": [0.1,1,1.3], "colorHex": "#9BB7C6", "alpha": 0.75, "metallic": 0.05, "colliderEnabled": true },
+    { "id": "cabinet", "assetId": "decor.cabinet", "parentId": "", "localPosition": [-1.6,0.7,-0.5], "localRotation": [0,0,0,1], "localScale": [0.8,1,0.5], "colorHex": "#8A6F55", "alpha": 1, "metallic": 0.1, "colliderEnabled": true },
+    { "id": "rug", "assetId": "decor.rug", "parentId": "", "localPosition": [0,0.02,0.3], "localRotation": [0,0,0,1], "localScale": [1.8,1,1.4], "colorHex": "#6C8C9B", "alpha": 1, "metallic": 0, "colliderEnabled": false }
+  ],
+  "groups": [ { "groupId": "desk-set", "groupName": "Desk Set", "childIds": ["desk","chair","monitor","keyboard","mouse","plant","partition","cabinet"] } ]
+}

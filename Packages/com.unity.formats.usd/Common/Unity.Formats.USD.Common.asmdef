@@ -1,0 +1,21 @@
+{
+    "name": "Unity.Formats.USD.Common",
+    "references": [
+        "USD.NET",
+        "USD.NET.Unity",
+        "Unity.TextMeshPro"
+    ],
+    "includePlatforms": [
+        "Editor",
+        "macOSStandalone",
+        "WindowsStandalone64"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

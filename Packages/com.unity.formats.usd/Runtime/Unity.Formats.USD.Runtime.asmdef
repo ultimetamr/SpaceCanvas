@@ -1,0 +1,31 @@
+{
+    "name": "Unity.Formats.USD.Runtime",
+    "rootNamespace": "",
+    "references": [
+        "Unity.Timeline",
+        "USD.NET",
+        "USD.NET.Unity",
+        "Unity.Formats.USD.Common",
+        "Unity.RenderPipelines.Universal.Editor",
+        "Unity.TextMeshPro"
+    ],
+    "includePlatforms": [
+        "Editor",
+        "macOSStandalone",
+        "WindowsStandalone64"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.unity.render-pipelines.universal",
+            "expression": "7.0.0",
+            "define": "URP_AVAILABLE"
+        }
+    ],
+    "noEngineReferences": false
+}

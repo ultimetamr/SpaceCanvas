@@ -1,0 +1,40 @@
+# Unity generated state and local user/device data
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/DeviceProjects/
+/MemoryCaptures/
+/Recordings/
+/.vs/
+/.idea/
+/.vscode/
+/.gradle/
+/*.csproj
+/*.sln
+/*.slnx
+/*.suo
+/*.user
+/*.pidb
+/*.booproj
+/*.tmp
+*.apk
+*.aab
+*.keystore
+*.jks
+*.pfx
+.env
+.env.*
+!.env.example
+credentials.json
+local.properties
+.DS_Store
+Thumbs.db
+
+# These PICO packages prohibit redistribution without written permission.
+# Restore licensed copies using Tools/Restore-PicoDependencies.ps1.
+/Packages/PICO-Unity-SDK-6.1.1-20260903/
+/Packages/com.bytedance.pico.spatialadapter/

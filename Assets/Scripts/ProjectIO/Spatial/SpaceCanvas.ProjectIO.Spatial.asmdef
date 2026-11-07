@@ -1,0 +1,8 @@
+{
+  "name": "SpaceCanvas.ProjectIO.Spatial",
+  "rootNamespace": "SpaceCanvas.ProjectIO.Spatial",
+  "references": ["SpaceCanvas.ProjectIO", "Unity.InputSystem", "UnityEngine.UI"],
+  "autoReferenced": true,
+  "defineConstraints": ["SPACECANVAS_SPATIAL"],
+  "versionDefines": [{"name":"com.bytedance.pico.spatialadapter","expression":"6.0.0","define":"SPACECANVAS_SPATIAL"}]
+}

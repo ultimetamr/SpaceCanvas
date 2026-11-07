@@ -1,0 +1,7 @@
+{
+  "name": "SpaceCanvas.ProjectIO.Editor",
+  "rootNamespace": "SpaceCanvas.ProjectIO.Editor",
+  "references": ["SpaceCanvas.ProjectIO", "UnityEditor.TestRunner", "UnityEngine.TestRunner", "UnityEngine.UI", "Unity.TextMeshPro"],
+  "includePlatforms": ["Editor"],
+  "autoReferenced": true
+}

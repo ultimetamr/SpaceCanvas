@@ -1,0 +1,65 @@
+[
+  {
+    "assetId": "furniture.sofa",
+    "sourceId": "sofa_02",
+    "axis": 0,
+    "extent": 2.25,
+    "bottom": -0.45
+  },
+  {
+    "assetId": "furniture.armchair",
+    "sourceId": "modern_arm_chair_01",
+    "axis": 1,
+    "extent": 1.05,
+    "bottom": -0.45
+  },
+  {
+    "assetId": "furniture.table",
+    "sourceId": "modern_coffee_table_01",
+    "axis": 1,
+    "extent": 0.55,
+    "bottom": -0.35
+  },
+  {
+    "assetId": "furniture.desk",
+    "sourceId": "metal_office_desk",
+    "axis": 1,
+    "extent": 0.95,
+    "bottom": -0.75
+  },
+  {
+    "assetId": "decor.plant",
+    "sourceId": "potted_plant_04",
+    "axis": 1,
+    "extent": 1.1,
+    "bottom": -0.65
+  },
+  {
+    "assetId": "office.plant",
+    "sourceId": "potted_plant_04",
+    "axis": 1,
+    "extent": 0.48,
+    "bottom": -0.15
+  },
+  {
+    "assetId": "decor.picture",
+    "sourceId": "hanging_picture_frame_01",
+    "axis": 1,
+    "extent": 1.1,
+    "bottom": -0.55
+  },
+  {
+    "assetId": "decor.vase",
+    "sourceId": "ceramic_vase_01",
+    "axis": 1,
+    "extent": 0.55,
+    "bottom": -0.2
+  },
+  {
+    "assetId": "decor.cabinet",
+    "sourceId": "modern_wooden_cabinet",
+    "axis": 1,
+    "extent": 1.35,
+    "bottom": -0.7
+  }
+]

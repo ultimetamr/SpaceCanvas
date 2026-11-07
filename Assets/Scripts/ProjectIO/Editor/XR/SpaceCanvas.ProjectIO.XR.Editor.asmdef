@@ -1,0 +1,8 @@
+{
+  "name": "SpaceCanvas.ProjectIO.XR.Editor",
+  "references": ["SpaceCanvas.ProjectIO", "SpaceCanvas.ProjectIO.Editor", "SpaceCanvas.ProjectIO.XR", "Unity.InputSystem", "Unity.XR.CoreUtils", "Unity.XR.Management", "Unity.XR.Management.Editor", "Unity.XR.OpenXR", "Unity.XR.OpenXR.Editor", "Unity.XR.Interaction.Toolkit", "UnityEngine.UI", "ByteDance.PICO.XR", "ByteDance.PICO.XR.Editor"],
+  "includePlatforms": ["Editor"],
+  "autoReferenced": true,
+  "defineConstraints": ["SPACECANVAS_PICO"],
+  "versionDefines": [{"name":"com.bytedance.pico.xr","expression":"6.0.0","define":"SPACECANVAS_PICO"}]
+}

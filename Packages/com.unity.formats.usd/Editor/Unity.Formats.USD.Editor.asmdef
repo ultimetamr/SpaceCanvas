@@ -1,0 +1,27 @@
+{
+    "name": "Unity.Formats.USD.Editor",
+    "references": [
+        "Unity.Formats.USD.Runtime",
+        "Unity.Recorder.Editor",
+        "USD.NET",
+        "Unity.Formats.USD.Common",
+        "Unity.TextMeshPro"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.unity.recorder",
+            "expression": "2.2.0-preview.1",
+            "define": "RECORDER_AVAILABLE"
+        }
+    ],
+    "noEngineReferences": false
+}

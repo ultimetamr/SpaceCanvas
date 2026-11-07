@@ -1,0 +1,11 @@
+{
+  "name": "SpaceCanvas.ProjectIO.Spatial.Editor",
+  "references": ["SpaceCanvas.ProjectIO", "SpaceCanvas.ProjectIO.Editor", "SpaceCanvas.ProjectIO.Spatial", "UnityEngine.UI", "ByteDance.PICO.XR", "ByteDance.PICO.XR.Editor", "ByteDance.PICO.SpatialAdapter.Exporter.Editor", "Unity.XR.Management", "Unity.XR.Management.Editor"],
+  "includePlatforms": ["Editor"],
+  "autoReferenced": true,
+  "defineConstraints": ["SPACECANVAS_SPATIAL", "SPACECANVAS_PICO", "PICO_MS_SDK"],
+  "versionDefines": [
+    {"name":"com.bytedance.pico.spatialadapter","expression":"6.0.0","define":"SPACECANVAS_SPATIAL"},
+    {"name":"com.bytedance.pico.xr","expression":"6.0.0","define":"SPACECANVAS_PICO"}
+  ]
+}

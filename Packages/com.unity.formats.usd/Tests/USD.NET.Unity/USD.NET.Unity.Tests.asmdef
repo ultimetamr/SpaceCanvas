@@ -1,0 +1,28 @@
+{
+  "name": "USD.NET.Unity.Tests",
+  "references": [
+    "Unity.Formats.USD.Runtime",
+    "USD.NET.Unity",
+    "USD.NET",
+    "USD.NET.Tests",
+    "Unity.Formats.USD.Tests.Common"
+  ],
+  "includePlatforms": [
+    "Editor",
+    "macOSStandalone",
+    "WindowsStandalone64"
+  ],
+  "excludePlatforms": [],
+  "allowUnsafeCode": true,
+  "overrideReferences": true,
+  "precompiledReferences": [
+    "nunit.framework.dll"
+  ],
+  "autoReferenced": false,
+  "versionDefines": [],
+  "noEngineReferences": false,
+  "defineConstraints": [
+    "UNITY_INCLUDE_TESTS",
+    "SPACECANVAS_ENABLE_VENDOR_USD_TESTS"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "SpaceCanvas.ProjectIO.XR.Tests",
+  "references": ["SpaceCanvas.ProjectIO.XR", "Unity.InputSystem", "Unity.XR.Interaction.Toolkit"],
+  "includePlatforms": ["Editor"],
+  "optionalUnityReferences": ["TestAssemblies"],
+  "overrideReferences": true,
+  "precompiledReferences": ["nunit.framework.dll"],
+  "defineConstraints": ["SPACECANVAS_PICO"],
+  "versionDefines": [{"name":"com.bytedance.pico.xr","expression":"6.0.0","define":"SPACECANVAS_PICO"}]
+}

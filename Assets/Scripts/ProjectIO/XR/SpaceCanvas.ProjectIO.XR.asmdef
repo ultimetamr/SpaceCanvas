@@ -1,0 +1,7 @@
+{
+  "name": "SpaceCanvas.ProjectIO.XR",
+  "references": ["SpaceCanvas.ProjectIO", "Unity.InputSystem", "Unity.XR.CoreUtils", "Unity.XR.Management", "Unity.XR.OpenXR", "Unity.XR.Interaction.Toolkit", "UnityEngine.UI", "ByteDance.PICO.XR"],
+  "autoReferenced": true,
+  "defineConstraints": ["SPACECANVAS_PICO"],
+  "versionDefines": [{"name":"com.bytedance.pico.xr","expression":"6.0.0","define":"SPACECANVAS_PICO"}]
+}

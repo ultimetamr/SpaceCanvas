@@ -1,0 +1,9 @@
+{
+  "name": "SpaceCanvas.ProjectIO.Editor.Tests",
+  "references": ["SpaceCanvas.ProjectIO", "SpaceCanvas.ProjectIO.Editor", "Unity.ugui"],
+  "includePlatforms": ["Editor"],
+  "optionalUnityReferences": ["TestAssemblies"],
+  "overrideReferences": true,
+  "precompiledReferences": ["nunit.framework.dll"],
+  "autoReferenced": true
+}
