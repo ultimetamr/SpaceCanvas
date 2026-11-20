@@ -10,6 +10,8 @@
 - `SpaceCanvasPanelMaterialBuilder` 生成并检查 Resources 材质，构建时保留着色器引用，避免 Android 裁剪后面板消失。
 - 新增实际像素渲染回归：校验面板中心不透明、圆角透明、轮廓存在部分覆盖像素，并检查共用材质的参数隔离、UV 通道与原命中尺寸。像素测试图片输出到 `Logs/Panel-AA-Validation.png`。
 
+面板版完整回归：136 通过、0 失败、0 跳过，报告 `Logs/Unity6-PanelAA-EditMode-Final.xml`。Android 构建成功，0 错误、69 警告；已检查构建日志中包含新面板着色器编译，APK 签名通过。APK SHA256 为 `09B16C80EF0B00534AF8B392269ECD48D3D8B30B8DBFF9C3E7BA590106B6F791`，已覆盖安装到 Swan。2026-11-07 已在 Swan 前台启动，日志确认 9 个物体、透视和工作台加载；用户左右转头检查后确认“边缘明显改善，点击正常”。此前用户已确认 TMP 修复后文字改善。本次确认覆盖文字、面板边缘目视效果及按钮点击，不等同于完整性能基准或全部功能验收。
+
 ## 后续定位：旧 TMP 着色器与 Unity 6 网格格式不匹配
 
 第一轮 MSAA 与字号调整后，用户确认闪烁仍存在。继续逐行检查发现：当前 `com.unity.ugui` 的 `TextMeshProUGUI` 将 signed SDF scale 写入 `characterInfo.vertex_*.uv.w`（UV0.w），而工程中保留的旧版 `TMP_SDF-Mobile.shader`、标准 SDF 等仍读取 `input.texcoord1.y`（UV1.y）。后者在当前网格中是布局 UV，不是字形缩放值。

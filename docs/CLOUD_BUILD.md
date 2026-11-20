@@ -1,5 +1,11 @@
 # GitHub 云编译 APK
 
+## 0.3.3 更新（2026-11-20）
+
+最新快照对应工作空间旋转与多视角版：versionName `0.3.3`、versionCode `6`，548 个文件；源代码提交 `7c1c7f0cae694123ca601b89b033cd7aad7c55ad`。Unity Android API 36 构建及 Gradle 8.11.1 / Java 17 根目录构建均已成功，513 个 APK 场景资源/原生库文件与快照一致，签名验证通过。具体记录见 `docs/VALIDATION.md`。
+
+平台仍应选择仓库 `main` 最新提交，在根目录重新执行 `assembleRelease`。如果平台继续强制注入 versionCode=1，最终安装版本仍会被平台改写；不要以源码默认 code 6 推断平台产物。下文 0.3.2 的摘要和散列保留为历史构建记录。
+
 ## 本次错误的原因
 
 云平台在仓库根目录运行 `gradle assembleRelease`。原仓库是 Unity 源工程，根目录没有 `settings.gradle`，因此错误发生在 Gradle 发现工程阶段，尚未编译 C# 或 Android 源码。不要执行 `gradle init` 生成一个无关空应用。
