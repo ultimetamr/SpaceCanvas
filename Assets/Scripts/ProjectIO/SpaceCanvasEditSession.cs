@@ -45,7 +45,7 @@ namespace SpaceCanvas.ProjectIO
 
         public bool BeginGesture(SpaceCanvasEditableObject item, Vector3 pointer, Quaternion rotation)
         {
-            if (IsManipulating || !IsEditable(item) || !Finite(pointer) || !Finite(rotation)) return false;
+            if (SpaceCanvasWorkspaceView.InputBlocked || IsManipulating || !IsEditable(item) || !Finite(pointer) || !Finite(rotation)) return false;
             workspaceUI?.FinishPropertyEdit();
             Select(item);
             if (!SceneExporter.TryCaptureCurrentScene(null, out before, out var error))

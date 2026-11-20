@@ -35,6 +35,7 @@ namespace SpaceCanvas.ProjectIO.XR
             SpaceCanvasOpenXRPointer.ConsumeUIActivation();
             if (workspace != null && workspace.editSession != null)
             { workspace.editSession.Handles?.CancelDrag(); workspace.editSession.EndGesture(true); }
+            SpaceCanvasWorkspaceView.Current?.ResetView();
             if(runtime!=null)runtime.RecenterWorkbench();
         }
         private void OnTutorialChanged() { SpaceCanvasOpenXRPointer.ConsumeUIActivation(); }

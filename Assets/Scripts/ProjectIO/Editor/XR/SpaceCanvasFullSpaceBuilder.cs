@@ -119,9 +119,11 @@ namespace SpaceCanvas.ProjectIO.Editor.XR
             general.InitManagerOnStart = true; general.Manager.automaticLoading = true; general.Manager.automaticRunning = true;
             EditorUtility.SetDirty(general); EditorUtility.SetDirty(general.Manager);
             PlayerSettings.SetApplicationIdentifier(NamedBuildTarget.Android, "com.spacecanvas.prototype");
-            PlayerSettings.bundleVersion = "0.3.2"; PlayerSettings.Android.bundleVersionCode = 5;
+            PlayerSettings.bundleVersion = "0.3.3"; PlayerSettings.Android.bundleVersionCode = 6;
             PlayerSettings.SetScriptingBackend(NamedBuildTarget.Android, ScriptingImplementation.IL2CPP);
             PlayerSettings.Android.targetArchitectures = AndroidArchitecture.ARM64;
+            // Match the reproducible cloud packager; fail instead of silently targeting an older installed API.
+            PlayerSettings.Android.targetSdkVersion = (AndroidSdkVersions)36;
             PlayerSettings.SetUseDefaultGraphicsAPIs(BuildTarget.Android, false);
             PlayerSettings.SetGraphicsAPIs(BuildTarget.Android, new[] {UnityEngine.Rendering.GraphicsDeviceType.OpenGLES3});
             var adapter = AssetDatabase.LoadAssetAtPath<ScriptableObject>("Assets/Settings/SpatialAdapterRuntimeSettings.asset");
@@ -215,7 +217,25 @@ namespace SpaceCanvas.ProjectIO.Editor.XR
         public static void BuildExistingAndroid()
         {
             ConfigureOpenXR();
+            UpgradeWorkspaceViewBatch();
             BuildAndroid();
+        }
+
+        /// <summary>Adds only the viewing controls; preserves the authored content, UI and camera rig.</summary>
+        public static void UpgradeWorkspaceViewBatch()
+        {
+            var scene = EditorSceneManager.OpenScene(ScenePath);
+            var workspace = UnityEngine.Object.FindObjectOfType<SpaceCanvasWorkspace>();
+            if (workspace == null) throw new InvalidOperationException("未找到空间工作台。");
+            var ui = workspace.GetComponent<SpaceCanvasWorkspaceUI>();
+            var view = SpaceCanvasWorkspaceView.Ensure(workspace);
+            view.BuildOrBindControls(ui.ViewRoot, workspace.viewCamera);
+            foreach (var canvas in ui.ViewRoot.GetComponentsInChildren<Canvas>(true))
+                if (canvas.name == "工作空间视角" && canvas.GetComponent<TrackedDeviceGraphicRaycaster>() == null)
+                    canvas.gameObject.AddComponent<TrackedDeviceGraphicRaycaster>();
+            SpaceCanvasFontBuilder.EnsurePresentationCharacters();
+            EditorSceneManager.MarkSceneDirty(scene);
+            SpaceCanvasSceneBootstrap.SaveSceneWithStableFonts(scene, ScenePath);
         }
 
         /// <summary>Render the authored workspace for inspection without saving preview state to its scene.</summary>
@@ -391,8 +411,13 @@ namespace SpaceCanvas.ProjectIO.Editor.XR
             try
             {
                 Directory.CreateDirectory("Library/MRPreview");
-                foreach (var state in new[] {"workspace", "handles-move", "handles-rotate", "handles-scale", "appearance", "tutorial", "tutorial-add", "tutorial-edit", "tutorial-save", "tutorial-import", "tutorial-complete", "focus", "about", "import", "confirm", "layout", "recovery", "placement"})
+                var view = SpaceCanvasWorkspaceView.Ensure(workspace);
+                foreach (var state in new[] {"workspace", "view-side", "view-back", "view-top", "handles-move", "handles-rotate", "handles-scale", "appearance", "tutorial", "tutorial-add", "tutorial-edit", "tutorial-save", "tutorial-import", "tutorial-complete", "focus", "about", "import", "confirm", "layout", "recovery", "placement"})
                 {
+                    if (state == "view-side") view.Show(SpaceCanvasWorkspaceView.Preset.Side, false);
+                    if (state == "view-back") view.Show(SpaceCanvasWorkspaceView.Preset.Back, false);
+                    if (state == "view-top") view.Show(SpaceCanvasWorkspaceView.Preset.Top, false);
+                    if (state == "handles-move") view.Show(SpaceCanvasWorkspaceView.Preset.Front, false);
                     var session = workspace.GetComponent<SpaceCanvasEditSession>();
                     var handles = workspace.GetComponent<SpaceCanvasTransformHandles>();
                     if (state.StartsWith("handles-") || state == "appearance")

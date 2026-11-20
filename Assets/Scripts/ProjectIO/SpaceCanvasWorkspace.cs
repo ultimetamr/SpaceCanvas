@@ -22,6 +22,7 @@ namespace SpaceCanvas.ProjectIO
             // Existing scenes may contain prefab instances created before the premium
             // procedural layer was added. Upgrade them in place without changing JSON data.
             SpaceCanvasRuntime.UpgradeBuiltinAssets();
+            SpaceCanvasWorkspaceView.Ensure(this);
         }
 
         private void OnDestroy()

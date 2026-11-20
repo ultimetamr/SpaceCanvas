@@ -31,6 +31,7 @@ namespace SpaceCanvas.ProjectIO
         private TMPro.TextMeshPro measurementLabel;
 
         public bool Available => isActiveAndEnabled && session != null && session.Selected != null
+            && !SpaceCanvasWorkspaceView.InputBlocked
             && session.Selected.gameObject.activeInHierarchy
             && (SpaceCanvasRuntime.ContentRoot == null || session.Selected.transform.IsChildOf(SpaceCanvasRuntime.ContentRoot))
             && (session.projectUI == null || !session.projectUI.ModalOpen)

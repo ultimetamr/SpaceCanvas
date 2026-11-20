@@ -1,9 +1,9 @@
 # 作品提交资料
 
 - **作品名称：** SpaceCanvas 空间原型坊
-- **版本名称：** 0.3.2（Unity 6 MR 体验与清晰度修复版）
-- **Android versionName：** 0.3.2
-- **Android versionCode：** 5
+- **版本名称：** 0.3.3（工作空间旋转与多视角版）
+- **Android versionName：** 0.3.3
+- **Android versionCode：** 6
 - **应用包名：** com.spacecanvas.prototype
 - **项目 GitHub：** https://github.com/ultimetamr/SpaceCanvas
 - **作品图标：** `Assets/Scripts/ProjectIO/Editor/Branding/SpaceCanvasIcon.png`，1024 × 1024 PNG
@@ -17,7 +17,7 @@ SpaceCanvas 空间原型坊是一款面向 PICO Swan 的 MR 空间原型与布�
 
 ## 版本说明（提交平台可直接使用）
 
-完善 MR 素材放置、移动旋转缩放、外观配色和撤销；支持开放 JSON 工程保存与 Unity 场景还原，提供存档缩略图、版本预览、三套示例及新手教学。完成 Unity 6 适配，修复半透明放置流程、TMP 文字着色器兼容与面板边缘闪烁。公开自有源码、场景资源和二次开发文档。
+新增整个工作空间的平滑旋转，以及正面、侧面、背面、俯视和一键复位，方便从不同方向检查布局；查看角度独立于工程坐标，旋转后仍可放置、拖动、保存与撤销。保留 MR 素材库、半透明放置预览、物体变换与外观编辑、JSON 工程交换、Unity 场景还原、存档预览、三套示例与新手教学。
 
 ## 开源范围
 

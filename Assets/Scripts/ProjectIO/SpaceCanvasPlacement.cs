@@ -41,6 +41,11 @@ namespace SpaceCanvas.ProjectIO
 
         public void Begin(string id)
         {
+            if (SpaceCanvasWorkspaceView.InputBlocked)
+            {
+                projectUI?.ShowFeedback("视角正在切换，请稍后选择素材。", false);
+                return;
+            }
             Cancel();
             try
             {

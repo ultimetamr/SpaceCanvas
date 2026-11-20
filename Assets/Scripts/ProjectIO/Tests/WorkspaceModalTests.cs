@@ -44,6 +44,29 @@ namespace SpaceCanvas.ProjectIO.Tests
 
         private Button ToolbarButton(string name) => toolbar.GetComponentsInChildren<Button>(true).Single(x => x.name == name);
 
+        [Test] public void SavedViewDockRebindsHasTrackedInputAndIsBlockedByModals()
+        {
+            var workspace = ui.GetComponent<SpaceCanvasWorkspaceUI>();
+            var view = SpaceCanvasWorkspaceView.Ensure(ui.GetComponent<SpaceCanvasWorkspace>());
+            view.BuildOrBindControls(workspace.ViewRoot, workspace.viewCamera);
+            var dock = workspace.ViewRoot.Find("工作空间视角");
+            Assert.IsNotNull(dock, "The shipped scene must contain the view toolbar.");
+            Assert.IsNotNull(dock.GetComponent(System.Type.GetType("UnityEngine.XR.Interaction.Toolkit.UI.TrackedDeviceGraphicRaycaster, Unity.XR.Interaction.Toolkit")));
+            dock.GetComponentsInChildren<Button>().Single(x => x.name == "侧面").onClick.Invoke();
+            Assert.AreEqual(90, view.Yaw);
+            workspace.SetModalVisibility(true);
+            var group = dock.GetComponent<CanvasGroup>();
+            Assert.IsFalse(group.interactable); Assert.IsFalse(group.blocksRaycasts);
+            workspace.SetModalVisibility(false);
+            Assert.IsTrue(group.interactable); Assert.IsTrue(group.blocksRaycasts);
+            foreach (var text in dock.GetComponentsInChildren<TMPro.TextMeshProUGUI>())
+            {
+                text.ForceMeshUpdate();
+                Assert.That(text.preferredWidth, Is.LessThanOrEqualTo(text.rectTransform.rect.width + 1), text.name);
+                Assert.That(text.preferredHeight, Is.LessThanOrEqualTo(text.rectTransform.rect.height + 1), text.name);
+            }
+        }
+
         [Test]
         public void ContextualInspectorControlsStayWithinSavedPanelAndRebindAfterRestart()
         {

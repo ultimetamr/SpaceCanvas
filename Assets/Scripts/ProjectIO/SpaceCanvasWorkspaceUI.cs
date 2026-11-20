@@ -76,6 +76,8 @@ namespace SpaceCanvas.ProjectIO
                 RefreshObjects();
             }
             Canvas.ForceUpdateCanvases();
+            if (fullSpaceLayout)
+                SpaceCanvasWorkspaceView.Ensure(GetComponent<SpaceCanvasWorkspace>())?.BuildOrBindControls(ViewRoot, viewCamera);
             RefreshToolFeedback();
         }
 
@@ -220,6 +222,7 @@ namespace SpaceCanvas.ProjectIO
             }
             ShowProperties();
             RefreshToolFeedback();
+            SpaceCanvasWorkspaceView.Ensure(GetComponent<SpaceCanvasWorkspace>())?.BuildOrBindControls(ViewRoot, camera);
             foreach(var canvas in workspaceCanvas.GetComponentsInChildren<Canvas>(true)) canvas.worldCamera=camera;
         }
 
@@ -227,7 +230,7 @@ namespace SpaceCanvas.ProjectIO
         {
             modalVisible = modal;
             if (workspaceCanvas == null) return;
-            foreach(var name in new[]{"素材库","属性面板","空间编辑工具","标题"})
+            foreach(var name in new[]{"素材库","属性面板","空间编辑工具","工作空间视角","标题"})
             {
                 var panel = workspaceCanvas.transform.Find(name); if(panel==null) continue;
                 var group = panel.GetComponent<CanvasGroup>();

@@ -6,7 +6,7 @@
 
 SpaceCanvas 是面向 PICO Swan 的 MR 空间原型工具。用户可在透视背景下放置家具和基础模型，调整位置、旋转、缩放与外观，并通过 `.spacecanvas` JSON 将头显中的布局带回 Unity 继续开发。
 
-当前版本 **0.3.2**，Android 包名 **`com.spacecanvas.prototype`**。当前运行入口采用 **Full Space MR / OpenXR**；仓库保留早期空间窗口适配代码，不能将其理解为当前 APK 已完成 Shared Space 系统原生多窗口验收。
+当前版本 **0.3.3**，Android 包名 **`com.spacecanvas.prototype`**。支持整个工作空间旋转及正面、侧面、背面和俯视切换。当前运行入口采用 **Full Space MR / OpenXR**；仓库保留早期空间窗口适配代码，不能将其理解为当前 APK 已完成 Shared Space 系统原生多窗口验收。
 
 **GitHub 云编译入口：** 仓库根目录提供 Gradle 8.11.1 / AGP 8.10.1 构建，执行 `gradle assembleRelease` 可编译 Android 启动层并打包 `CloudAndroid/` 中的 Unity 应用快照。需要 Java 17、Android SDK 36 / Build Tools 36.0.0。**此路径不会重新编译 C# 或 Unity 场景**；修改 `Assets/` 后，必须先在 Unity 构建并更新快照。操作步骤及版本号、签名说明见 [云编译指南](docs/CLOUD_BUILD.md)。
 
